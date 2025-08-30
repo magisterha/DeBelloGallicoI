@@ -145,9 +145,9 @@
             },
             // --- Texto Principal y Análisis ---
             textus: {
-                id: 1,
-                orationes: [
-                    {
+    id: 1,
+    orationes: [
+        {
                         id_orationis: 'o1',
                         textus_originalis: "Gallia est omnis divisa in partes tres, quarum unam incolunt Belgae, aliam Aquitani, tertiam qui ipsorum lingua Celtae, nostra Galli appellantur.",
                         analysis_syntacticus: {
@@ -202,46 +202,104 @@
                             { id_verbi: 'v1_21', terminus: 'appellantur.', analysis_morphologicus: 'Verbo, 3ª persona, plural, presente de indicativo pasivo ("son llamados").', analysis_morphologicus_en: 'Verb, 3rd person, plural, present indicative passive ("are called").', analysis_morphologicus_zh: '動詞，第三人稱，複數，現在時直陳被動語態（「被稱為」）。'}
                         ]
                     },
-                    {
-                        id_orationis: 'o2',
-                        textus_originalis: "Hi omnes lingua, institutis, legibus inter se differunt.",
-                        analysis_syntacticus: {
-                            es: {
-                                titulus: "Análisis Sintáctico",
-                                contentus: `<p>Se trata de una oración simple y activa. El <b>sujeto</b> es el pronombre "<i>Hi</i>" (Estos), modificado por el adjetivo "<i>omnes</i>" (todos).</p><p>El <b>verbo principal</b> es "<i>differunt</i>" (difieren), que rige la estructura.</p><p>La expresión "<i>inter se</i>" (entre sí) funciona como un complemento del verbo, indicando reciprocidad.</p><p>Finalmente, "<i>lingua</i>", "<i>institutis</i>" y "<i>legibus</i>" son tres sustantivos en caso <b>ablativo</b>. Sintácticamente, funcionan como complementos circunstanciales de respeto o separación, especificando en qué aspectos se produce la diferencia.</p>`
-                            },
-                            en: {
-                                titulus: "Syntactic Analysis",
-                                contentus: `<p>This is a simple, active sentence. The <b>subject</b> is the pronoun "<i>Hi</i>" (These), modified by the adjective "<i>omnes</i>" (all).</p><p>The <b>main verb</b> is "<i>differunt</i>" (they differ), which governs the structure.</p><p>The expression "<i>inter se</i>" (among themselves) functions as a complement to the verb, indicating reciprocity.</p><p>Finally, "<i>lingua</i>", "<i>institutis</i>", and "<i>legibus</i>" are three nouns in the <b>ablative</b> case. Syntactically, they function as circumstantial complements of respect or separation, specifying in what aspects the difference occurs.</p>`
-                            },
-                            zh: {
-                                titulus: "句法分析",
-                                contentus: `<p>這是一個簡單的主動句。<b>主語</b>是代名詞「<i>Hi</i>」(這些人)，由形容詞「<i>omnes</i>」(所有的)修飾。</p><p><b>主要動詞</b>是「<i>differunt</i>」(他們不同)，它支配著整個句子結構。</p><p>片語「<i>inter se</i>」(彼此之間)作為動詞的補語，表示相互關係。</p><p>最後，「<i>lingua</i>」、「<i>institutis</i>」和「<i>legibus</i>」是三個處於<b>離格</b>的名詞。在句法上，它們作為方面或分離的狀語補語，具體說明了差異存在於哪些方面。</p>`
-                            }
-                        },
-                        translationes_explicatae: {
-                            es: {
-                                titulus: "Traducciones y Comentarios",
-                                contentus: `<p><b>Traducción Literal:</b><br><i>Estos todos en lengua, en instituciones, en leyes entre sí difieren.</i></p><p><b>Traducción Idiomática/Literaria:</b><br><i>Todos estos se diferencian entre sí en la lengua, las instituciones y las leyes.</i></p>`
-                            },
-                            en: {
-                                titulus: "Translations & Commentary",
-                                contentus: `<p><b>Literal Translation:</b><br><i>These all in language, in institutions, in laws among themselves differ.</i></p><p><b>Idiomatic/Literary Translation:</b><br><i>All of these differ from each other in language, institutions, and laws.</i></p>`
-                            },
-                            zh: {
-                                titulus: "翻譯與註釋",
-                                contentus: `<p><b>直譯：</b><br><i>所有這些人在語言上、制度上、法律上彼此不同。</i></p><p><b>意譯/文學翻譯：</b><br><i>所有這些民族的語言、制度和法律都各不相同。</i></p>`
-                            }
-                        },
-                        verba: [
-                            { id_verbi: 'v2_1', terminus: 'Hi', analysis_morphologicus: 'Pronombre demostrativo (hic, haec, hoc), masculino, plural, nominativo. Sujeto de "differunt".', analysis_morphologicus_en: 'Demonstrative pronoun (hic, haec, hoc), masculine, plural, nominative. Subject of "differunt".', analysis_morphologicus_zh: '指示代名詞 (hic, haec, hoc)，陽性，複數，主格。「differunt」的主語。'},
-                            { id_verbi: 'v2_2', terminus: 'omnes', analysis_morphologicus: 'Adjetivo (omnis, -e), masculino, plural, nominativo. Modifica a "Hi".', analysis_morphologicus_en: 'Adjective (omnis, -e), masculine, plural, nominative. Modifies "Hi".', analysis_morphologicus_zh: '形容詞 (omnis, -e)，陽性，複數，主格。修飾「Hi」。'},
-                            { id_verbi: 'v2_3', terminus: 'lingua,', analysis_morphologicus: 'Sustantivo (lingua, -ae), femenino, singular, ablativo. Ablativo de respeto o separación.', analysis_morphologicus_en: 'Noun (lingua, -ae), feminine, singular, ablative. Ablative of respect or separation.', analysis_morphologicus_zh: '名詞 (lingua, -ae)，陰性，單數，離格。方面或分離離格。'},
-                            { id_verbi: 'v2_4', terminus: 'institutis,', analysis_morphologicus: 'Sustantivo (institutum, -i), neutro, plural, ablativo. Ablativo de respeto o separación.', analysis_morphologicus_en: 'Noun (institutum, -i), neuter, plural, ablative. Ablative of respect or separation.', analysis_morphologicus_zh: '名詞 (institutum, -i)，中性，複數，離格。方面或分離離格。'},
-                            { id_verbi: 'v2_5', terminus: 'legibus', analysis_morphologicus: 'Sustantivo (lex, legis), femenino, plural, ablativo. Ablativo de respeto o separación.', analysis_morphologicus_en: 'Noun (lex, legis), feminine, plural, ablative. Ablative of respect or separation.', analysis_morphologicus_zh: '名詞 (lex, legis)，陰性，複數，離格。方面或分離離格。'},
-                            { id_verbi: 'v2_6', terminus: 'inter', analysis_morphologicus: 'Preposición. Rige acusativo ("entre").', analysis_morphologicus_en: 'Preposition. Governs accusative ("between", "among").', analysis_morphologicus_zh: '介詞。支配賓格（「在...之間」）。'},
-                            { id_verbi: 'v2_7', terminus: 'se', analysis_morphologicus: 'Pronombre reflexivo, 3ª persona, plural, acusativo. Término de la preposición "inter".', analysis_morphologicus_en: 'Reflexive pronoun, 3rd person, plural, accusative. Object of the preposition "inter".', analysis_morphologicus_zh: '反身代名詞，第三人稱，複數，賓格。介詞「inter」的賓語。'},
-                            { id_verbi: 'v2_8', terminus: 'differunt.', analysis_morphologicus: 'Verbo (differo), 3ª persona, plural, presente de indicativo activo.', analysis_morphologicus_en: 'Verb (differo), 3rd person, plural, present indicative active.', analysis_morphologicus_zh: '動詞 (differo)，第三人稱，複數，現在時直陳主動語態。'}
+        } 
+        
+        // PEGA AQUÍ EL CÓDIGO QUE TE HE DADO
+        // (El código empieza con una coma)
+        , 
+        {
+            id_orationis: 'o2',
+         {
+    id_orationis: 'o2',
+    textus_originalis: "Hi omnes lingua, institutis, legibus inter se differunt.",
+    analysis_syntacticus: {
+        es: {
+            titulus: "Análisis Sintáctico",
+            contentus: `<p>Es una oración simple. El <b>sujeto</b> es el pronombre "<i>Hi</i>", modificado por "<i>omnes</i>". El <b>verbo principal</b> es "<i>differunt</i>". La expresión recíproca "<i>inter se</i>" y los tres <b>ablativos de respeto</b> ("<i>lingua</i>", "<i>institutis</i>", "<i>legibus</i>") complementan al verbo, especificando en qué aspectos difieren.</p>`
+        },
+        en: {
+            titulus: "Syntactic Analysis",
+            contentus: `<p>This is a simple sentence. The <b>subject</b> is the pronoun "<i>Hi</i>", modified by "<i>omnes</i>". The <b>main verb</b> is "<i>differunt</i>". The reciprocal expression "<i>inter se</i>" and the three <b>ablatives of respect</b> ("<i>lingua</i>", "<i>institutis</i>", "<i>legibus</i>") complement the verb, specifying in what aspects they differ.</p>`
+        },
+        zh: {
+            titulus: "句法分析",
+            contentus: `<p>這是一個簡單句。<b>主語</b>是代詞「<i>Hi</i>」，由「<i>omnes</i>」修飾。<b>主要動詞</b>是「<i>differunt</i>」。相互關係表達「<i>inter se</i>」和三個<b>方面離格</b>（「<i>lingua</i>」、「<i>institutis</i>」、「<i>legibus</i>」）補充動詞，具體說明它們在哪些方面有所不同。</p>`
+        }
+    },
+    translationes_explicatae: {
+        es: {
+            titulus: "Traducciones y Comentarios",
+            contentus: `<p><b>Traducción Literal:</b><br><i>Estos todos en lengua, en instituciones, en leyes entre sí difieren.</i></p><p><b>Traducción Idiomática:</b><br><i>Todos ellos se diferencian entre sí por la lengua, las costumbres y las leyes.</i></p>`
+        },
+        en: {
+            titulus: "Translations & Commentary",
+            contentus: `<p><b>Literal Translation:</b><br><i>These all in language, in institutions, in laws among themselves differ.</i></p><p><b>Idiomatic Translation:</b><br><i>All of these differ from each other in language, customs, and laws.</i></p>`
+        },
+        zh: {
+            titulus: "翻譯與註釋",
+            contentus: `<p><b>直譯：</b><br><i>所有這些人在語言上、制度上、法律上彼此不同。</i></p><p><b>意譯：</b><br><i>所有這些民族的語言、制度和法律都各不相同。</i></p>`
+        }
+    },
+    verba: [
+        { id_verbi: 'v2_1', terminus: 'Hi', analysis_morphologicus: "Pronombre demostrativo ('hic'), masculino, plural, nominativo. Sujeto de 'differunt'.", analysis_morphologicus_en: "Demonstrative pronoun ('hic'), masculine, plural, nominative. Subject of 'differunt'.", analysis_morphologicus_zh: "指示代名詞（'hic'），陽性，複數，主格。「differunt」的主語。" },
+        { id_verbi: 'v2_2', terminus: 'omnes', analysis_morphologicus: "Adjetivo, masculino, plural, nominativo. Concuerda con 'Hi' ('todos').", analysis_morphologicus_en: "Adjective, masculine, plural, nominative. Agrees with 'Hi' ('all').", analysis_morphologicus_zh: "形容詞，陽性，複數，主格。修飾「Hi」（「所有的」）。" },
+        { id_verbi: 'v2_3', terminus: 'lingua,', analysis_morphologicus: "Sustantivo, femenino, singular, ablativo. Ablativo de respeto ('en cuanto a la lengua').", analysis_morphologicus_en: "Noun, feminine, singular, ablative. Ablative of respect ('in respect to language').", analysis_morphologicus_zh: "名詞，陰性，單數，離格。方面離格（「在語言方面」）。" },
+        { id_verbi: 'v2_4', terminus: 'institutis,', analysis_morphologicus: "Sustantivo, neutro, plural, ablativo. Ablativo de respeto ('en cuanto a las costumbres').", analysis_morphologicus_en: "Noun, neuter, plural, ablative. Ablative of respect ('in respect to customs/institutions').", analysis_morphologicus_zh: "名詞，中性，複數，離格。方面離格（「在習俗/制度方面」）。" },
+        { id_verbi: 'v2_5', terminus: 'legibus', analysis_morphologicus: "Sustantivo, femenino, plural, ablativo. Ablativo de respeto ('en cuanto a las leyes').", analysis_morphologicus_en: "Noun, feminine, plural, ablative. Ablative of respect ('in respect to laws').", analysis_morphologicus_zh: "名詞，陰性，複數，離格。方面離格（「在法律方面」）。" },
+        { id_verbi: 'v2_6', terminus: 'inter', analysis_morphologicus: "Preposición. Rige acusativo ('entre').", analysis_morphologicus_en: "Preposition. Governs the accusative ('between' or 'among').", analysis_morphologicus_zh: "介詞。支配賓格（「在...之間」）。" },
+        { id_verbi: 'v2_7', terminus: 'se', analysis_morphologicus: "Pronombre reflexivo, acusativo. Usado con 'inter' para formar la expresión recíproca 'inter se' ('entre sí').", analysis_morphologicus_en: "Reflexive pronoun, accusative. Used with 'inter' to form the reciprocal expression 'inter se' ('among themselves').", analysis_morphologicus_zh: "反身代名詞，賓格。與「inter」連用，構成相互關係表達「inter se」（「彼此之間」）。" },
+        { id_verbi: 'v2_8', terminus: 'differunt.', analysis_morphologicus: "Verbo ('differo'), 3ª persona, plural, presente de indicativo activo.", analysis_morphologicus_en: "Verb ('differo'), 3rd person, plural, present indicative active.", analysis_morphologicus_zh: "動詞（'differo'），第三人稱，複數，現在時直陳主動語態。" }
+    ]
+}
+        },
+        {
+            id_orationis: 'o3',
+           {
+    id_orationis: 'o3',
+    textus_originalis: "Gallos ab Aquitanis Garumna flumen, a Belgis Matrona et Sequana diuidit.",
+    analysis_syntacticus: {
+        es: {
+            titulus: "Análisis Sintáctico",
+            contentus: `<p>Oración simple con sujeto compuesto. El <b>verbo</b> es "<i>diuidit</i>" y está en singular, concordando con el sujeto más cercano. El <b>objeto directo</b> es "<i>Gallos</i>". El <b>sujeto compuesto</b> es "<i>Garumna flumen</i>" por un lado, y "<i>Matrona et Sequana</i>" por otro. Cada parte del sujeto tiene su propio complemento de separación: "<i>ab Aquitanis</i>" y "<i>a Belgis</i>".</p>`
+        },
+        en: {
+            titulus: "Syntactic Analysis",
+            contentus: `<p>A simple sentence with a compound subject. The <b>verb</b> is "<i>diuidit</i>" and is singular, agreeing with the nearest subject. The <b>direct object</b> is "<i>Gallos</i>". The <b>compound subject</b> is "<i>Garumna flumen</i>" on one hand, and "<i>Matrona et Sequana</i>" on the other. Each part of the subject has its own complement of separation: "<i>ab Aquitanis</i>" and "<i>a Belgis</i>".</p>`
+        },
+        zh: {
+            titulus: "句法分析",
+            contentus: `<p>帶有複合主語的簡單句。<b>動詞</b>是「<i>diuidit</i>」，為單數形式，與最近的主語一致。<b>直接賓語</b>是「<i>Gallos</i>」。<b>複合主語</b>一方面是「<i>Garumna flumen</i>」，另一方面是「<i>Matrona et Sequana</i>」。主語的每個部分都有其自己的分離補語：「<i>ab Aquitanis</i>」和「<i>a Belgis</i>」。</p>`
+        }
+    },
+    translationes_explicatae: {
+        es: {
+            titulus: "Traducciones y Comentarios",
+            contentus: `<p><b>Traducción Literal:</b><br><i>A los Galos de los Aquitanos el río Garona, de los Belgas el Marne y el Sena divide.</i></p><p><b>Traducción Idiomática:</b><br><i>El río Garona separa a los galos de los aquitanos; el Marne y el Sena los separan de los belgas.</i></p>`
+        },
+        en: {
+            titulus: "Translations & Commentary",
+            contentus: `<p><b>Literal Translation:</b><br><i>The Gauls from the Aquitani the river Garonne, from the Belgae the Marne and the Seine divides.</i></p><p><b>Idiomatic Translation:</b><br><i>The Garonne river separates the Gauls from the Aquitani; the Marne and the Seine separate them from the Belgae.</i></p>`
+        },
+        zh: {
+            titulus: "翻譯與註釋",
+            contentus: `<p><b>直譯：</b><br><i>加龍河將高盧人與阿基坦人分開，馬恩河與塞納河將他們與貝爾格人分開。</i></p><p><b>意譯：</b><br><i>加龍河分隔了高盧人與阿基坦人；馬恩河和塞納河則將他們與貝爾格人分開。</i></p>`
+        }
+    },
+    verba: [
+        { id_verbi: 'v3_1', terminus: 'Gallos', analysis_morphologicus: "Sustantivo (propio), masculino, plural, acusativo. Objeto directo de 'dividit'.", analysis_morphologicus_en: "Noun (proper), masculine, plural, accusative. Direct object of 'dividit'.", analysis_morphologicus_zh: "名詞（專有），陽性，複數，賓格。「dividit」的直接賓語。" },
+        { id_verbi: 'v3_2', terminus: 'ab', analysis_morphologicus: "Preposición. Rige ablativo. Indica separación ('de').", analysis_morphologicus_en: "Preposition. Governs the ablative. Indicates separation ('from').", analysis_morphologicus_zh: "介詞。支配離格。表示分離（「從」）。" },
+        { id_verbi: 'v3_3', terminus: 'Aquitanis', analysis_morphologicus: "Sustantivo (propio), masculino, plural, ablativo. Término de la preposición 'ab'.", analysis_morphologicus_en: "Noun (proper), masculine, plural, ablative. Object of the preposition 'ab'.", analysis_morphologicus_zh: "名詞（專有），陽性，複數，離格。介詞「ab」的賓語。" },
+        { id_verbi: 'v3_4', terminus: 'Garumna', analysis_morphologicus: "Sustantivo (propio, río Garona), femenino, singular, nominativo. Sujeto de 'dividit'.", analysis_morphologicus_en: "Noun (proper, Garonne river), feminine, singular, nominative. Subject of 'dividit'.", analysis_morphologicus_zh: "名詞（專有，加龍河），陰性，單數，主格。「dividit」的主語。" },
+        { id_verbi: 'v3_5', terminus: 'flumen,', analysis_morphologicus: "Sustantivo, neutro, singular, nominativo. Aposición a 'Garumna' ('el río').", analysis_morphologicus_en: "Noun, neuter, singular, nominative. In apposition to 'Garumna' ('the river').", analysis_morphologicus_zh: "名詞，中性，單數，主格。「Garumna」的同位語（「河流」）。" },
+        { id_verbi: 'v3_6', terminus: 'a', analysis_morphologicus: "Preposición (variante de 'ab' ante consonante). Rige ablativo. Indica separación ('de').", analysis_morphologicus_en: "Preposition (variant of 'ab' before a consonant). Governs the ablative. Indicates separation ('from').", analysis_morphologicus_zh: "介詞（'ab'在輔音前的變體）。支配離格。表示分離（「從」）。" },
+        { id_verbi: 'v3_7', terminus: 'Belgis', analysis_morphologicus: "Sustantivo (propio), masculino, plural, ablativo. Término de la preposición 'a'.", analysis_morphologicus_en: "Noun (proper), masculine, plural, ablative. Object of the preposition 'a'.", analysis_morphologicus_zh: "名詞（專有），陽性，複數，離格。介詞「a」的賓語。" },
+        { id_verbi: 'v3_8', terminus: 'Matrona', analysis_morphologicus: "Sustantivo (propio, río Marne), femenino, singular, nominativo. Sujeto de 'dividit'.", analysis_morphologicus_en: "Noun (proper, Marne river), feminine, singular, nominative. Subject of 'dividit'.", analysis_morphologicus_zh: "名詞（專有，馬恩河），陰性，單數，主格。「dividit」的主語。" },
+        { id_verbi: 'v3_9', terminus: 'et', analysis_morphologicus: "Conjunción coordinante ('y').", analysis_morphologicus_en: "Coordinating conjunction ('and').", analysis_morphologicus_zh: "並列連詞（「和」）。" },
+        { id_verbi: 'v3_10', terminus: 'Sequana', analysis_morphologicus: "Sustantivo (propio, río Sena), femenino, singular, nominativo. Sujeto de 'dividit'.", analysis_morphologicus_en: "Noun (proper, Seine river), feminine, singular, nominative. Subject of 'dividit'.", analysis_morphologicus_zh: "名詞（專有，塞納河），陰性，單數，主格。「dividit」的主語。" },
+        { id_verbi: 'v3_11', terminus: 'diuidit.', analysis_morphologicus: "Verbo ('divido'), 3ª persona, singular, presente de indicativo activo.", analysis_morphologicus_en: "Verb ('divido'), 3rd person, singular, present indicative active.", analysis_morphologicus_zh: "動詞（'divido'），第三人稱，單數，現在時直陳主動語態。" }
+    ]
+}
+        }
                         ]
                     }
                 ]
