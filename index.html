@@ -687,7 +687,7 @@ const corpus = {
                 { id_verbi: 'v12_21', terminus: 'cupidi', analysis_morphologicus: "Adjetivo, masculino, plural, nominativo.", analysis_morphologicus_en: "Adjective, masculine, plural, nominative.", analysis_morphologicus_zh: "形容詞，陽性，複數，主格。" },
                 { id_verbi: 'v12_22', terminus: 'magno', analysis_morphologicus: "Adjetivo, masculino, singular, ablativo.", analysis_morphologicus_en: "Adjective, masculine, singular, ablative.", analysis_morphologicus_zh: "形容詞，陽性，單數，離格。" },
                 { id_verbi: 'v12_23', terminus: 'dolore', analysis_morphologicus: "Sustantivo, masculino, singular, ablativo.", analysis_morphologicus_en: "Noun, masculine, singular, ablative.", analysis_morphologicus_zh: "名詞，陽性，單數，離格。" },
-                { id_verbi: 'v12_24', terminus: 'adficiebantur.', analysis_morphologicus: "Verbo, 3ª pers. plural, imperfecto, pasivo, indicativo.", analysis_morphologicus_en: "Verb, 3rd pers. plural, imperfect, passive, indicative.", analysis_morphologicus_zh: "動詞，第三人稱複數，未完成時，被動語態，直陳法。" }
+                { id_verbi: 'v12_24', terminus: 'adficiebantur.', analysis_morphologicus: "Verbo, 3ª pers. plural, imperfecto, pasivo, indicativo.", analysis_morphologicus_en: "Verb, 3rd pers. plural, imperfect, passive, indicative.", analysis_morphologicus_zh: "動詞，第三人稱複數，未完成時，被動語態，直陳法。" } 
             ]
         },
         {
@@ -746,7 +746,436 @@ const corpus = {
                 { id_verbi: 'v13_22', terminus: 'in', analysis_morphologicus: "Preposición que rige acusativo.", analysis_morphologicus_en: "Preposition governing accusative.", analysis_morphologicus_zh: "介詞，支配賓格。" },
                 { id_verbi: 'v13_23', terminus: 'latitudinem', analysis_morphologicus: "Sustantivo, femenino, singular, acusativo.", analysis_morphologicus_en: "Noun, feminine, singular, accusative.", analysis_morphologicus_zh: "名詞，陰性，單數，賓格。" },
                 { id_verbi: 'v13_24', terminus: 'CLXXX', analysis_morphologicus: "Numeral.", analysis_morphologicus_en: "Numeral.", analysis_morphologicus_zh: "數詞。" },
-                { id_verbi: 'v13_25', terminus: 'patebant.', analysis_morphologicus: "Verbo, 3ª pers. plural, imperfecto, activo, indicativo.", analysis_morphologicus_en: "Verb, 3rd pers. plural, imperfect, active, indicative.", analysis_morphologicus_zh: "動詞，第三人稱複數，未完成時，主動語態，直陳法。" }
+                { id_verbi: 'v13_25', terminus: 'patebant.', analysis_morphologicus: "Verbo, 3ª pers. plural, imperfecto, activo, indicativo.", analysis_morphologicus_en: "Verb, 3rd pers. plural, imperfect, active, indicative.", analysis_morphologicus_zh: "動詞，第三人稱複數，未完成時，主動語態，直陳法。" }        
+            ]
+        },
+        {
+                    id_orationis: 'o14',
+                    textus_originalis: "His rebus adducti et auctoritate Orgetorigis permoti constituerunt ea quae ad proficiscendum pertinerent comparare, iumentorum et carrorum quam maximum numerum coemere, sementes quam maximas facere, ut in itinere copia frumenti suppeteret, cum proximis ciuitatibus pacem et amicitiam confirmare.",
+                    analysis_syntacticus: {
+                        es: {
+                            titulus: "Análisis Sintáctico",
+                            contentus: `<p>El sujeto elíptico (los Helvecios), modificado por los participios <b>adducti</b> y <b>permoti</b>, tiene como verbo principal <b>constituerunt</b> (decidieron). Este verbo rige una serie de <b>infinitivos completivos</b> que funcionan como objeto directo: <b>comparare</b>, <b>coemere</b>, <b>facere</b> y <b>confirmare</b>.</p><p><b>ea quae... pertinerent</b> es una cláusula de relativo. <b>ut... suppeteret</b> es una cláusula subordinada final.</p>`
+                        },
+                        en: {
+                            titulus: "Syntactic Analysis",
+                            contentus: `<p>The elliptical subject (the Helvetii), modified by the participles <b>adducti</b> and <b>permoti</b>, has the main verb <b>constituerunt</b> (they decided). This verb governs a series of <b>complementary infinitives</b> that function as a direct object: <b>comparare</b>, <b>coemere</b>, <b>facere</b>, and <b>confirmare</b>.</p><p><b>ea quae... pertinerent</b> is a relative clause. <b>ut... suppeteret</b> is a subordinate purpose clause.</p>`
+                        },
+                        zh: {
+                            titulus: "句法分析",
+                            contentus: `<p>省略的主語（赫爾維蒂人），由分詞<b>adducti</b>和<b>permoti</b>修飾，主要動詞是<b>constituerunt</b>（他們決定）。該動詞支配一系列作為直接賓語的<b>補語不定式</b>：<b>comparare</b>、<b>coemere</b>、<b>facere</b>和<b>confirmare</b>。</p><p><b>ea quae... pertinerent</b>是一個關係從句。<b>ut... suppeteret</b>是一個目的從句。</p>`
+                        }
+                    },
+                    translationes_explicatae: {
+                        es: {
+                            titulus: "Traducciones y Comentarios",
+                            contentus: `<p><b>Traducción Idiomática:</b><br><i>Inducidos por estas consideraciones y movidos por la autoridad de Orgetórix, decidieron preparar lo necesario para la partida, comprar el mayor número posible de bestias de carga y de carros, hacer las mayores siembras posibles para asegurar la provisión de trigo durante el viaje, y consolidar la paz y la amistad con los pueblos vecinos.</i></p>`
+                        },
+                        en: {
+                            titulus: "Translations & Commentary",
+                            contentus: `<p><b>Idiomatic Translation:</b><br><i>Influenced by these factors and moved by the authority of Orgetorix, they decided to prepare what was necessary for their departure, to buy up the greatest possible number of pack animals and wagons, to make the most extensive sowings possible to ensure a supply of grain on their journey, and to establish peace and friendship with the neighboring states.</i></p>`
+                        },
+                        zh: {
+                            titulus: "翻譯與註釋",
+                            contentus: `<p><b>意譯：</b><br><i>受這些情況影響，並在奧格托里克斯的權威鼓動下，他們決定準備出發所需的一切，盡可能多地購買馱畜和車輛，盡可能多地播種，以確保旅途中有充足的糧食供應，並與鄰近的部族鞏固和平與友誼。</i></p>`
+                        }
+                    },
+                    verba: [
+                        { id_verbi: 'v14_1', terminus: 'His', analysis_morphologicus: "Pronombre, neutro, plural, ablativo.", analysis_morphologicus_en: "Pronoun, neuter, plural, ablative.", analysis_morphologicus_zh: "代名詞，中性，複數，離格。" },
+                        { id_verbi: 'v14_2', terminus: 'rebus', analysis_morphologicus: "Sustantivo, femenino, plural, ablativo.", analysis_morphologicus_en: "Noun, feminine, plural, ablative.", analysis_morphologicus_zh: "名詞，陰性，複數，離格。" },
+                        { id_verbi: 'v14_3', terminus: 'adducti', analysis_morphologicus: "Participio, perfecto, pasivo, nominativo, plural, masculino.", analysis_morphologicus_en: "Participle, perfect, passive, nominative, plural, masculine.", analysis_morphologicus_zh: "分詞，完成時，被動語態，主格，複數，陽性。" },
+                        { id_verbi: 'v14_4', terminus: 'et', analysis_morphologicus: "Conjunción.", analysis_morphologicus_en: "Conjunction.", analysis_morphologicus_zh: "連詞。" },
+                        { id_verbi: 'v14_5', terminus: 'auctoritate', analysis_morphologicus: "Sustantivo, femenino, singular, ablativo.", analysis_morphologicus_en: "Noun, feminine, singular, ablative.", analysis_morphologicus_zh: "名詞，陰性，單數，離格。" },
+                        { id_verbi: 'v14_6', terminus: 'Orgetorigis', analysis_morphologicus: "Sustantivo, masculino, singular, genitivo.", analysis_morphologicus_en: "Noun, masculine, singular, genitive.", analysis_morphologicus_zh: "名詞，陽性，單數，屬格。" },
+                        { id_verbi: 'v14_7', terminus: 'permoti', analysis_morphologicus: "Participio, perfecto, pasivo, nominativo, plural, masculino.", analysis_morphologicus_en: "Participle, perfect, passive, nominative, plural, masculine.", analysis_morphologicus_zh: "分詞，完成時，被動語態，主格，複數，陽性。" },
+                        { id_verbi: 'v14_8', terminus: 'constituerunt', analysis_morphologicus: "Verbo, 3ª pers. plural, perfecto, activo, indicativo.", analysis_morphologicus_en: "Verb, 3rd pers. plural, perfect, active, indicative.", analysis_morphologicus_zh: "動詞，第三人稱複數，完成時，主動語態，直陳法。" },
+                        { id_verbi: 'v14_9', terminus: 'ea', analysis_morphologicus: "Pronombre, neutro, plural, acusativo.", analysis_morphologicus_en: "Pronoun, neuter, plural, accusative.", analysis_morphologicus_zh: "代名詞，中性，複數，賓格。" },
+                        { id_verbi: 'v14_10', terminus: 'quae', analysis_morphologicus: "Pronombre relativo, neutro, plural, nominativo.", analysis_morphologicus_en: "Relative pronoun, neuter, plural, nominative.", analysis_morphologicus_zh: "關係代名詞，中性，複數，主格。" },
+                        { id_verbi: 'v14_11', terminus: 'ad', analysis_morphologicus: "Preposición que rige acusativo.", analysis_morphologicus_en: "Preposition governing accusative.", analysis_morphologicus_zh: "介詞，支配賓格。" },
+                        { id_verbi: 'v14_12', terminus: 'proficiscendum', analysis_morphologicus: "Gerundio, acusativo.", analysis_morphologicus_en: "Gerund, accusative.", analysis_morphologicus_zh: "動名詞，賓格。" },
+                        { id_verbi: 'v14_13', terminus: 'pertinerent', analysis_morphologicus: "Verbo, 3ª pers. plural, imperfecto, activo, subjuntivo.", analysis_morphologicus_en: "Verb, 3rd pers. plural, imperfect, active, subjunctive.", analysis_morphologicus_zh: "動詞，第三人稱複數，未完成時，主動語態，虛擬式。" },
+                        { id_verbi: 'v14_14', terminus: 'comparare,', analysis_morphologicus: "Verbo, infinitivo presente, activo.", analysis_morphologicus_en: "Verb, present infinitive, active.", analysis_morphologicus_zh: "動詞，現在時不定式，主動語態。" },
+                        { id_verbi: 'v14_15', terminus: 'iumentorum', analysis_morphologicus: "Sustantivo, neutro, plural, genitivo.", analysis_morphologicus_en: "Noun, neuter, plural, genitive.", analysis_morphologicus_zh: "名詞，中性，複數，屬格。" },
+                        { id_verbi: 'v14_16', terminus: 'et', analysis_morphologicus: "Conjunción.", analysis_morphologicus_en: "Conjunction.", analysis_morphologicus_zh: "連詞。" },
+                        { id_verbi: 'v14_17', terminus: 'carrorum', analysis_morphologicus: "Sustantivo, masculino, plural, genitivo.", analysis_morphologicus_en: "Noun, masculine, plural, genitive.", analysis_morphologicus_zh: "名詞，陽性，複數，屬格。" },
+                        { id_verbi: 'v14_18', terminus: 'quam', analysis_morphologicus: "Adverbio, con superlativo.", analysis_morphologicus_en: "Adverb, with superlative.", analysis_morphologicus_zh: "副詞，與最高級連用。" },
+                        { id_verbi: 'v14_19', terminus: 'maximum', analysis_morphologicus: "Adjetivo, masculino, singular, acusativo. Superlativo.", analysis_morphologicus_en: "Adjective, masculine, singular, accusative. Superlative.", analysis_morphologicus_zh: "形容詞，陽性，單數，賓格。最高級。" },
+                        { id_verbi: 'v14_20', terminus: 'numerum', analysis_morphologicus: "Sustantivo, masculino, singular, acusativo.", analysis_morphologicus_en: "Noun, masculine, singular, accusative.", analysis_morphologicus_zh: "名詞，陽性，單數，賓格。" },
+                        { id_verbi: 'v14_21', terminus: 'coemere,', analysis_morphologicus: "Verbo, infinitivo presente, activo.", analysis_morphologicus_en: "Verb, present infinitive, active.", analysis_morphologicus_zh: "動詞，現在時不定式，主動語態。" },
+                        { id_verbi: 'v14_22', terminus: 'sementes', analysis_morphologicus: "Sustantivo, femenino, plural, acusativo.", analysis_morphologicus_en: "Noun, feminine, plural, accusative.", analysis_morphologicus_zh: "名詞，陰性，複數，賓格。" },
+                        { id_verbi: 'v14_23', terminus: 'quam', analysis_morphologicus: "Adverbio, con superlativo.", analysis_morphologicus_en: "Adverb, with superlative.", analysis_morphologicus_zh: "副詞，與最高級連用。" },
+                        { id_verbi: 'v14_24', terminus: 'maximas', analysis_morphologicus: "Adjetivo, femenino, plural, acusativo. Superlativo.", analysis_morphologicus_en: "Adjective, feminine, plural, accusative. Superlative.", analysis_morphologicus_zh: "形容詞，陰性，複數，賓格。最高級。" },
+                        { id_verbi: 'v14_25', terminus: 'facere,', analysis_morphologicus: "Verbo, infinitivo presente, activo.", analysis_morphologicus_en: "Verb, present infinitive, active.", analysis_morphologicus_zh: "動詞，現在時不定式，主動語態。" },
+                        { id_verbi: 'v14_26', terminus: 'ut', analysis_morphologicus: "Conjunción final.", analysis_morphologicus_en: "Purpose conjunction.", analysis_morphologicus_zh: "目的連詞。" },
+                        { id_verbi: 'v14_27', terminus: 'in', analysis_morphologicus: "Preposición que rige ablativo.", analysis_morphologicus_en: "Preposition governing ablative.", analysis_morphologicus_zh: "介詞，支配離格。" },
+                        { id_verbi: 'v14_28', terminus: 'itinere', analysis_morphologicus: "Sustantivo, neutro, singular, ablativo.", analysis_morphologicus_en: "Noun, neuter, singular, ablative.", analysis_morphologicus_zh: "名詞，中性，單數，離格。" },
+                        { id_verbi: 'v14_29', terminus: 'copia', analysis_morphologicus: "Sustantivo, femenino, singular, nominativo.", analysis_morphologicus_en: "Noun, feminine, singular, nominative.", analysis_morphologicus_zh: "名詞，陰性，單數，主格。" },
+                        { id_verbi: 'v14_30', terminus: 'frumenti', analysis_morphologicus: "Sustantivo, neutro, singular, genitivo.", analysis_morphologicus_en: "Noun, neuter, singular, genitive.", analysis_morphologicus_zh: "名詞，中性，單數，屬格。" },
+                        { id_verbi: 'v14_31', terminus: 'suppeteret,', analysis_morphologicus: "Verbo, 3ª pers. sing., imperfecto, activo, subjuntivo.", analysis_morphologicus_en: "Verb, 3rd pers. sing., imperfect, active, subjunctive.", analysis_morphologicus_zh: "動詞，第三人稱單數，未完成時，主動語態，虛擬式。" },
+                        { id_verbi: 'v14_32', terminus: 'cum', analysis_morphologicus: "Preposición que rige ablativo.", analysis_morphologicus_en: "Preposition governing ablative.", analysis_morphologicus_zh: "介詞，支配離格。" },
+                        { id_verbi: 'v14_33', terminus: 'proximis', analysis_morphologicus: "Adjetivo, femenino, plural, ablativo. Superlativo.", analysis_morphologicus_en: "Adjective, feminine, plural, ablative. Superlative.", analysis_morphologicus_zh: "形容詞，陰性，複數，離格。最高級。" },
+                        { id_verbi: 'v14_34', terminus: 'ciuitatibus', analysis_morphologicus: "Sustantivo, femenino, plural, ablativo.", analysis_morphologicus_en: "Noun, feminine, plural, ablative.", analysis_morphologicus_zh: "名詞，陰性，複數，離格。" },
+                        { id_verbi: 'v14_35', terminus: 'pacem', analysis_morphologicus: "Sustantivo, femenino, singular, acusativo.", analysis_morphologicus_en: "Noun, feminine, singular, accusative.", analysis_morphologicus_zh: "名詞，陰性，單數，賓格。" },
+                        { id_verbi: 'v14_36', terminus: 'et', analysis_morphologicus: "Conjunción.", analysis_morphologicus_en: "Conjunction.", analysis_morphologicus_zh: "連詞。" },
+                        { id_verbi: 'v14_37', terminus: 'amicitiam', analysis_morphologicus: "Sustantivo, femenino, singular, acusativo.", analysis_morphologicus_en: "Noun, feminine, singular, accusative.", analysis_morphologicus_zh: "名詞，陰性，單數，賓格。" },
+                        { id_verbi: 'v14_38', terminus: 'confirmare.', analysis_morphologicus: "Verbo, infinitivo presente, activo.", analysis_morphologicus_en: "Verb, present infinitive, active.", analysis_morphologicus_zh: "動詞，現在時不定式，主動語態。" }
+                    ]
+                },
+                {
+                    id_orationis: 'o15',
+                    textus_originalis: "Ad eas res conficiendas biennium sibi satis esse duxerunt; in tertium annum profectionem lege confirmant.",
+                    analysis_syntacticus: {
+                        es: {
+                            titulus: "Análisis Sintáctico",
+                            contentus: `<p>Dos oraciones coordinadas. La primera tiene como verbo <b>duxerunt</b>, que rige una AcI: <b>biennium satis esse</b>. <b>Ad eas res conficiendas</b> es una construcción de gerundivo con 'ad' para expresar finalidad.</p><p>La segunda oración tiene como verbo <b>confirmant</b>, con <b>profectionem</b> como objeto directo.</p>`
+                        },
+                        en: {
+                            titulus: "Syntactic Analysis",
+                            contentus: `<p>Two coordinated clauses. The first has the verb <b>duxerunt</b>, which governs an AcI: <b>biennium satis esse</b>. <b>Ad eas res conficiendas</b> is a gerundive construction with 'ad' to express purpose.</p><p>The second clause has the verb <b>confirmant</b>, with <b>profectionem</b> as its direct object.</p>`
+                        },
+                        zh: {
+                            titulus: "句法分析",
+                            contentus: `<p>兩個並列的句子。第一個句子的動詞是<b>duxerunt</b>，它支配一個不定式子句：<b>biennium satis esse</b>。<b>Ad eas res conficiendas</b>是一個帶有'ad'的動形詞結構，表示目的。</p><p>第二個句子的動詞是<b>confirmant</b>，直接賓語是<b>profectionem</b>。</p>`
+                        }
+                    },
+                    translationes_explicatae: {
+                        es: { titulus: "Traducciones y Comentarios", contentus: `<p><b>Traducción Idiomática:</b><br><i>Consideraron que un bienio les sería suficiente para llevar a cabo estos preparativos; mediante una ley, fijan la partida para el tercer año.</i></p>` },
+                        en: { titulus: "Translations & Commentary", contentus: `<p><b>Idiomatic Translation:</b><br><i>They considered that a period of two years would be sufficient for them to complete these preparations; by law, they set their departure for the third year.</i></p>` },
+                        zh: { titulus: "翻譯與註釋", contentus: `<p><b>意譯：</b><br><i>他們認為兩年時間足以完成這些準備工作；他們通過法律確定第三年出發。</i></p>` }
+                    },
+                    verba: [
+                        { id_verbi: 'v15_1', terminus: 'Ad', analysis_morphologicus: "Preposición que rige acusativo.", analysis_morphologicus_en: "Preposition governing accusative.", analysis_morphologicus_zh: "介詞，支配賓格。" },
+                        { id_verbi: 'v15_2', terminus: 'eas', analysis_morphologicus: "Pronombre, femenino, plural, acusativo.", analysis_morphologicus_en: "Pronoun, feminine, plural, accusative.", analysis_morphologicus_zh: "代名詞，陰性，複數，賓格。" },
+                        { id_verbi: 'v15_3', terminus: 'res', analysis_morphologicus: "Sustantivo, femenino, plural, acusativo.", analysis_morphologicus_en: "Noun, feminine, plural, accusative.", analysis_morphologicus_zh: "名詞，陰性，複數，賓格。" },
+                        { id_verbi: 'v15_4', terminus: 'conficiendas', analysis_morphologicus: "Gerundivo, femenino, plural, acusativo.", analysis_morphologicus_en: "Gerundive, feminine, plural, accusative.", analysis_morphologicus_zh: "動形詞，陰性，複數，賓格。" },
+                        { id_verbi: 'v15_5', terminus: 'biennium', analysis_morphologicus: "Sustantivo, neutro, singular, acusativo.", analysis_morphologicus_en: "Noun, neuter, singular, accusative.", analysis_morphologicus_zh: "名詞，中性，單數，賓格。" },
+                        { id_verbi: 'v15_6', terminus: 'sibi', analysis_morphologicus: "Pronombre, dativo.", analysis_morphologicus_en: "Pronoun, dative.", analysis_morphologicus_zh: "代名詞，與格。" },
+                        { id_verbi: 'v15_7', terminus: 'satis', analysis_morphologicus: "Adverbio.", analysis_morphologicus_en: "Adverb.", analysis_morphologicus_zh: "副詞。" },
+                        { id_verbi: 'v15_8', terminus: 'esse', analysis_morphologicus: "Verbo, infinitivo presente.", analysis_morphologicus_en: "Verb, present infinitive.", analysis_morphologicus_zh: "動詞，現在時不定式。" },
+                        { id_verbi: 'v15_9', terminus: 'duxerunt;', analysis_morphologicus: "Verbo, 3ª pers. plural, perfecto, activo, indicativo.", analysis_morphologicus_en: "Verb, 3rd pers. plural, perfect, active, indicative.", analysis_morphologicus_zh: "動詞，第三人稱複數，完成時，主動語態，直陳法。" },
+                        { id_verbi: 'v15_10', terminus: 'in', analysis_morphologicus: "Preposición que rige acusativo.", analysis_morphologicus_en: "Preposition governing accusative.", analysis_morphologicus_zh: "介詞，支配賓格。" },
+                        { id_verbi: 'v15_11', terminus: 'tertium', analysis_morphologicus: "Adjetivo, masculino, singular, acusativo.", analysis_morphologicus_en: "Adjective, masculine, singular, accusative.", analysis_morphologicus_zh: "形容詞，陽性，單數，賓格。" },
+                        { id_verbi: 'v15_12', terminus: 'annum', analysis_morphologicus: "Sustantivo, masculino, singular, acusativo.", analysis_morphologicus_en: "Noun, masculine, singular, accusative.", analysis_morphologicus_zh: "名詞，陽性，單數，賓格。" },
+                        { id_verbi: 'v15_13', terminus: 'profectionem', analysis_morphologicus: "Sustantivo, femenino, singular, acusativo.", analysis_morphologicus_en: "Noun, feminine, singular, accusative.", analysis_morphologicus_zh: "名詞，陰性，單數，賓格。" },
+                        { id_verbi: 'v15_14', terminus: 'lege', analysis_morphologicus: "Sustantivo, femenino, singular, ablativo.", analysis_morphologicus_en: "Noun, feminine, singular, ablative.", analysis_morphologicus_zh: "名詞，陰性，單數，離格。" },
+                        { id_verbi: 'v15_15', terminus: 'confirmant.', analysis_morphologicus: "Verbo, 3ª pers. plural, presente, activo, indicativo.", analysis_morphologicus_en: "Verb, 3rd pers. plural, present, active, indicative.", analysis_morphologicus_zh: "動詞，第三人稱複數，現在時，主動語態，直陳法。" }
+                    ]
+                },
+                {
+                    id_orationis: 'o16',
+                    textus_originalis: "Ad eas res conficiendas Orgetorix deligitur.",
+                    analysis_syntacticus: {
+                        es: { titulus: "Análisis Sintáctico", contentus: `<p>Oración simple con verbo en voz pasiva: <b>deligitur</b>. El sujeto es <b>Orgetorix</b>. <b>Ad eas res conficiendas</b> es de nuevo una construcción de finalidad.</p>` },
+                        en: { titulus: "Syntactic Analysis", contentus: `<p>A simple sentence with a verb in the passive voice: <b>deligitur</b>. The subject is <b>Orgetorix</b>. <b>Ad eas res conficiendas</b> is again a construction of purpose.</p>` },
+                        zh: { titulus: "句法分析", contentus: `<p>一個帶有被動語態動詞的簡單句：<b>deligitur</b>。主語是<b>Orgetorix</b>。<b>Ad eas res conficiendas</b>再次是一個表示目的的結構。</p>` }
+                    },
+                    translationes_explicatae: {
+                        es: { titulus: "Traducciones y Comentarios", contentus: `<p><b>Traducción Idiomática:</b><br><i>Para llevar a cabo estas misiones, Orgetórix es elegido.</i></p>` },
+                        en: { titulus: "Translations & Commentary", contentus: `<p><b>Idiomatic Translation:</b><br><i>To carry out these tasks, Orgetorix is chosen.</i></p>` },
+                        zh: { titulus: "翻譯與註釋", contentus: `<p><b>意譯：</b><br><i>為了完成這些任務，奧格托里克斯被選中。</i></p>` }
+                    },
+                    verba: [
+                        { id_verbi: 'v16_1', terminus: 'Ad', analysis_morphologicus: "Preposición que rige acusativo.", analysis_morphologicus_en: "Preposition governing accusative.", analysis_morphologicus_zh: "介詞，支配賓格。" },
+                        { id_verbi: 'v16_2', terminus: 'eas', analysis_morphologicus: "Pronombre, femenino, plural, acusativo.", analysis_morphologicus_en: "Pronoun, feminine, plural, accusative.", analysis_morphologicus_zh: "代名詞，陰性，複數，賓格。" },
+                        { id_verbi: 'v16_3', terminus: 'res', analysis_morphologicus: "Sustantivo, femenino, plural, acusativo.", analysis_morphologicus_en: "Noun, feminine, plural, accusative.", analysis_morphologicus_zh: "名詞，陰性，複數，賓格。" },
+                        { id_verbi: 'v16_4', terminus: 'conficiendas', analysis_morphologicus: "Gerundivo, femenino, plural, acusativo.", analysis_morphologicus_en: "Gerundive, feminine, plural, accusative.", analysis_morphologicus_zh: "動形詞，陰性，複數，賓格。" },
+                        { id_verbi: 'v16_5', terminus: 'Orgetorix', analysis_morphologicus: "Sustantivo, masculino, singular, nominativo.", analysis_morphologicus_en: "Noun, masculine, singular, nominative.", analysis_morphologicus_zh: "名詞，陽性，單數，主格。" },
+                        { id_verbi: 'v16_6', terminus: 'deligitur.', analysis_morphologicus: "Verbo, 3ª pers. sing., presente, pasivo, indicativo.", analysis_morphologicus_en: "Verb, 3rd pers. sing., present, passive, indicative.", analysis_morphologicus_zh: "動詞，第三人稱單數，現在時，被動語態，直陳法。" }
+                    ]
+                },
+                {
+                    id_orationis: 'o17',
+                    textus_originalis: "Is sibi legationem ad ciuitates suscepit.",
+                    analysis_syntacticus: {
+                        es: { titulus: "Análisis Sintáctico", contentus: `<p>Oración simple. Sujeto: <b>Is</b>. Verbo: <b>suscepit</b>. Objeto Directo: <b>legationem</b>. Objeto Indirecto: <b>sibi</b>.</p>` },
+                        en: { titulus: "Syntactic Analysis", contentus: `<p>Simple sentence. Subject: <b>Is</b>. Verb: <b>suscepit</b>. Direct Object: <b>legationem</b>. Indirect Object: <b>sibi</b>.</p>` },
+                        zh: { titulus: "句法分析", contentus: `<p>簡單句。主語：<b>Is</b>。動詞：<b>suscepit</b>。直接賓語：<b>legationem</b>。間接賓語：<b>sibi</b>。</p>` }
+                    },
+                    translationes_explicatae: {
+                        es: { titulus: "Traducciones y Comentarios", contentus: `<p><b>Traducción Idiomática:</b><br><i>Él tomó para sí la embajada ante los pueblos.</i></p>` },
+                        en: { titulus: "Translations & Commentary", contentus: `<p><b>Idiomatic Translation:</b><br><i>He undertook for himself the embassy to the states.</i></p>` },
+                        zh: { titulus: "翻譯與註釋", contentus: `<p><b>意譯：</b><br><i>他親自承擔了出使各邦的任務。</i></p>` }
+                    },
+                    verba: [
+                        { id_verbi: 'v17_1', terminus: 'Is', analysis_morphologicus: "Pronombre, masculino, singular, nominativo.", analysis_morphologicus_en: "Pronoun, masculine, singular, nominative.", analysis_morphologicus_zh: "代名詞，陽性，單數，主格。" },
+                        { id_verbi: 'v17_2', terminus: 'sibi', analysis_morphologicus: "Pronombre, dativo.", analysis_morphologicus_en: "Pronoun, dative.", analysis_morphologicus_zh: "代名詞，與格。" },
+                        { id_verbi: 'v17_3', terminus: 'legationem', analysis_morphologicus: "Sustantivo, femenino, singular, acusativo.", analysis_morphologicus_en: "Noun, feminine, singular, accusative.", analysis_morphologicus_zh: "名詞，陰性，單數，賓格。" },
+                        { id_verbi: 'v17_4', terminus: 'ad', analysis_morphologicus: "Preposición que rige acusativo.", analysis_morphologicus_en: "Preposition governing accusative.", analysis_morphologicus_zh: "介詞，支配賓格。" },
+                        { id_verbi: 'v17_5', terminus: 'ciuitates', analysis_morphologicus: "Sustantivo, femenino, plural, acusativo.", analysis_morphologicus_en: "Noun, feminine, plural, accusative.", analysis_morphologicus_zh: "名詞，陰性，複數，賓格。" },
+                        { id_verbi: 'v17_6', terminus: 'suscepit.', analysis_morphologicus: "Verbo, 3ª pers. sing., perfecto, activo, indicativo.", analysis_morphologicus_en: "Verb, 3rd pers. sing., perfect, active, indicative.", analysis_morphologicus_zh: "動詞，第三人稱單數，完成時，主動語態，直陳法。" }
+                    ]
+                },
+                {
+                    id_orationis: 'o18',
+                    textus_originalis: "In eo itinere persuadet Castico, Catamantaloedis filio, Sequano, cuius pater regnum in Sequanis multos annos obtinuerat et a senatu populi Romani amicus appellatus erat, ut regnum in ciuitate sua occuparet quod pater ante habuerat; itemque Dumnorigi Haeduo, fratri Diuiciaci, qui eo tempore principatum in ciuitate optinebat ac maxime plebi acceptus erat, ut idem conaretur persuadet eique filiam suam in matrimonium dat.",
+                    analysis_syntacticus: {
+                        es: { titulus: "Análisis Sintáctico", contentus: `<p>Oración extremadamente compleja con estructura paralela. El verbo principal <b>persuadet</b> se repite. El primer bloque es <b>persuadet Castico... ut... occuparet</b>. El segundo bloque es <b>itemque [persuadet] Dumnorigi... ut... conaretur</b>. El verbo final es <b>dat</b>.</p><p><b>Castico</b> y <b>Dumnorigi</b> están descritos con múltiples aposiciones y cláusulas de relativo anidadas (<b>cuius pater...</b>, <b>qui eo tempore...</b>).</p>` },
+                        en: { titulus: "Syntactic Analysis", contentus: `<p>An extremely complex sentence with a parallel structure. The main verb <b>persuadet</b> is repeated. The first block is <b>persuadet Castico... ut... occuparet</b>. The second block is <b>itemque [persuadet] Dumnorigi... ut... conaretur</b>. The final verb is <b>dat</b>.</p><p><b>Castico</b> and <b>Dumnorigi</b> are described with multiple appositions and nested relative clauses (<b>cuius pater...</b>, <b>qui eo tempore...</b>).</p>` },
+                        zh: { titulus: "句法分析", contentus: `<p>一個帶有平行結構的極其複雜的句子。主要動詞<b>persuadet</b>被重複。第一個區塊是<b>persuadet Castico... ut... occuparet</b>。第二個區塊是<b>itemque [persuadet] Dumnorigi... ut... conaretur</b>。最後的動詞是<b>dat</b>。</p><p><b>Castico</b>和<b>Dumnorigi</b>由多個同位語和嵌套的關係從句描述（<b>cuius pater...</b>，<b>qui eo tempore...</b>）。</p>` }
+                    },
+                    translationes_explicatae: {
+                        es: { titulus: "Traducciones y Comentarios", contentus: `<p><b>Traducción Idiomática:</b><br><i>Durante este viaje, persuade al sécuano Cástico, hijo de Catamantaledes (cuyo padre había ostentado el poder real entre los sécuanos durante muchos años y había sido nombrado 'amigo' del pueblo romano por el senado), para que tomara el poder en su pueblo, que su padre había tenido antes; de igual modo persuade al heduo Dumnórige, hermano de Diviciaco, que en aquel tiempo ostentaba el liderazgo en su pueblo y era muy aceptado por la plebe, para que intentara lo mismo, y le entrega a su propia hija en matrimonio.</i></p>` },
+                        en: { titulus: "Translations & Commentary", contentus: `<p><b>Idiomatic Translation:</b><br><i>On this journey, he persuades Casticus, a Sequanian, the son of Catamantaloedes (whose father had held the kingship among the Sequani for many years and had been called 'friend' of the Roman people by the senate), to seize the kingship in his own state, which his father had held before; and likewise he persuades Dumnorix, an Aeduan, the brother of Diviciacus, who at that time held the chief authority in his state and was very popular with the common people, to attempt the same, and gives him his own daughter in marriage.</i></p>` },
+                        zh: { titulus: "翻譯與註釋", contentus: `<p><b>意譯：</b><br><i>在這次出使途中，他說服了塞夸尼人卡斯蒂庫斯（其父卡塔曼塔洛迪斯曾在塞夸尼人中為王多年，並被羅馬元老院授予“羅馬人民之友”的稱號），讓他在自己的邦中奪取其父曾擁有的王權；同樣地，他又說服了當時在本邦中擔任首領並深得民心的埃杜伊人杜姆諾里克斯（迪維基亞庫斯的兄弟），勸其圖謀同樣的事業，並將自己的女兒嫁給他。</i></p>` }
+                    },
+                    verba: [
+                        { id_verbi: 'v18_1', terminus: 'In', analysis_morphologicus: "Preposición que rige ablativo.", analysis_morphologicus_en: "Preposition governing ablative.", analysis_morphologicus_zh: "介詞，支配離格。" },
+                        { id_verbi: 'v18_42', terminus: 'dat.', analysis_morphologicus: "Verbo, 3ª pers. sing., presente, activo, indicativo.", analysis_morphologicus_en: "Verb, 3rd pers. sing., present, active, indicative.", analysis_morphologicus_zh: "動詞，第三人稱單數，現在時，主動語態，直陳法。" }
+                    ]
+                },
+                {
+                    id_orationis: 'o19',
+                    textus_originalis: "Perfacile factu esse illis probat conata perficere, propterea quod ipse suae ciuitatis imperium obtenturus esset: non esse dubium quin totius Galliae plurimum Heluetii possent; se suis copiis suoque exercitu illis regna conciliaturum confirmat.",
+                    analysis_syntacticus: {
+                        es: { titulus: "Análisis Sintáctico", contentus: `<p>Oración muy compleja con múltiples AcI. El verbo principal <b>probat</b> rige la AcI <b>Perfacile factu esse... perficere</b>. La razón se da en una cláusula con <b>propterea quod</b> + subjuntivo. El verbo <b>confirmat</b> rige dos AcI más: <b>non esse dubium quin...</b> y <b>se... conciliaturum [esse]</b>.</p>` },
+                        en: { titulus: "Syntactic Analysis", contentus: `<p>A very complex sentence with multiple AcI clauses. The main verb <b>probat</b> governs the AcI <b>Perfacile factu esse... perficere</b>. The reason is given in a clause with <b>propterea quod</b> + subjunctive. The verb <b>confirmat</b> governs two more AcI clauses: <b>non esse dubium quin...</b> and <b>se... conciliaturum [esse]</b>.</p>` },
+                        zh: { titulus: "句法分析", contentus: `<p>一個帶有多個不定式子句的非常複雜的句子。主要動詞<b>probat</b>支配不定式子句<b>Perfacile factu esse... perficere</b>。原因由帶有<b>propterea quod</b> + 虛擬式的子句給出。動詞<b>confirmat</b>支配另外兩個不定式子句：<b>non esse dubium quin...</b>和<b>se... conciliaturum [esse]</b>。</p>` }
+                    },
+                    translationes_explicatae: {
+                        es: { titulus: "Traducciones y Comentarios", contentus: `<p><b>Traducción Idiomática:</b><br><i>Les demuestra que llevar a cabo sus intentos es muy fácil de hacer, porque él mismo estaba a punto de obtener el poder de su propio pueblo; confirma que no había duda de que los helvecios eran los más poderosos de toda la Galia, y asegura que él, con sus propias tropas y su ejército, les conseguiría sus reinos.</i></p>` },
+                        en: { titulus: "Translations & Commentary", contentus: `<p><b>Idiomatic Translation:</b><br><i>He proves to them that to accomplish their attempts would be very easy to do, because he himself was about to seize the power of his own state; he confirms that there was no doubt that the Helvetii were the most powerful of all Gaul, and assures them that he, with his own troops and army, would win them their kingdoms.</i></p>` },
+                        zh: { titulus: "翻譯與註釋", contentus: `<p><b>意譯：</b><br><i>他向他們證明，完成他們的計劃是輕而易舉的事，因為他自己也將要取得本邦的政權；他申明，赫爾維蒂人無疑是全高盧最強大的，並保證他將用自己的軍隊和兵力為他們贏得王國。</i></p>` }
+                    },
+                    verba: [
+                        { id_verbi: 'v19_1', terminus: 'Perfacile', analysis_morphologicus: "Adjetivo, neutro, singular, acusativo.", analysis_morphologicus_en: "Adjective, neuter, singular, accusative.", analysis_morphologicus_zh: "形容詞，中性，單數，賓格。" },
+                        { id_verbi: 'v19_18', terminus: 'confirmat.', analysis_morphologicus: "Verbo, 3ª pers. sing., presente, activo, indicativo.", analysis_morphologicus_en: "Verb, 3rd pers. sing., present, active, indicative.", analysis_morphologicus_zh: "動詞，第三人稱單數，現在時，主動語態，直陳法。" }
+                    ]
+                },
+                {
+                    id_orationis: 'o20',
+                    textus_originalis: "Hac oratione adducti inter se fidem et ius iurandum dant et regno occupato per tres potentissimos ac firmissimos populos totius Galliae sese potiri posse sperant.",
+                    analysis_syntacticus: {
+                        es: { titulus: "Análisis Sintáctico", contentus: `<p>El sujeto elíptico (los tres líderes) está modificado por <b>adducti</b>. Los verbos principales son <b>dant</b> y <b>sperant</b>. <b>Sperant</b> rige una AcI: <b>sese potiri posse</b>. <b>Regno occupato</b> es un ablativo absoluto.</p>` },
+                        en: { titulus: "Syntactic Analysis", contentus: `<p>The elliptical subject (the three leaders) is modified by <b>adducti</b>. The main verbs are <b>dant</b> and <b>sperant</b>. <b>Sperant</b> governs an AcI: <b>sese potiri posse</b>. <b>Regno occupato</b> is an ablative absolute.</p>` },
+                        zh: { titulus: "句法分析", contentus: `<p>省略的主語（三位領袖）由<b>adducti</b>修飾。主要動詞是<b>dant</b>和<b>sperant</b>。<b>Sperant</b>支配一個不定式子句：<b>sese potiri posse</b>。<b>Regno occupato</b>是一個獨立離格結構。</p>` }
+                    },
+                    translationes_explicatae: {
+                        es: { titulus: "Traducciones y Comentarios", contentus: `<p><b>Traducción Idiomática:</b><br><i>Persuadidos por este discurso, se dan entre sí juramento de lealtad y, una vez tomados sus reinos, esperan poder apoderarse de toda la Galia a través de estos tres pueblos, los más poderosos y firmes.</i></p>` },
+                        en: { titulus: "Translations & Commentary", contentus: `<p><b>Idiomatic Translation:</b><br><i>Influenced by this speech, they give a pledge and an oath to one another, and with the kingship seized, they hope to be able to gain possession of all Gaul through these three most powerful and steadfast peoples.</i></p>` },
+                        zh: { titulus: "翻譯與註釋", contentus: `<p><b>意譯：</b><br><i>被這番言辭所打動，他們互相交換了誓言和信物，並希望在奪取王權後，能通過這三個最強大、最穩固的民族來稱霸整個高盧。</i></p>` }
+                    },
+                    verba: [
+                        { id_verbi: 'v20_1', terminus: 'Hac', analysis_morphologicus: "Pronombre, femenino, singular, ablativo.", analysis_morphologicus_en: "Pronoun, feminine, singular, ablative.", analysis_morphologicus_zh: "代名詞，陰性，單數，離格。" },
+                        { id_verbi: 'v20_17', terminus: 'sperant.', analysis_morphologicus: "Verbo, 3ª pers. plural, presente, activo, indicativo.", analysis_morphologicus_en: "Verb, 3rd pers. plural, present, active, indicative.", analysis_morphologicus_zh: "動詞，第三人稱複數，現在時，主動語態，直陳法。" }
+                    ]
+                },
+                {          
+                    id_orationis: 'o21',
+                    textus_originalis: "Ea res ut est Heluetiis per indicium enuntiata, moribus suis Orgetorigem ex uinculis causam dicere coegerunt.",
+                    analysis_syntacticus: {
+                        es: {
+                            titulus: "Análisis Sintáctico",
+                            contentus: `<p>La oración principal es <b>moribus suis... coegerunt</b>. El verbo principal, <b>coegerunt</b>, rige una construcción de Acusativo con Infinitivo (AcI): <b>Orgetorigem causam dicere</b>.</p><p><b>Ea res ut est... enuntiata</b> es una cláusula subordinada temporal introducida por 'ut' ("cuando").</p>`
+                        },
+                        en: {
+                            titulus: "Syntactic Analysis",
+                            contentus: `<p>The main clause is <b>moribus suis... coegerunt</b>. The main verb, <b>coegerunt</b>, governs an Accusative with Infinitive (AcI) construction: <b>Orgetorigem causam dicere</b>.</p><p><b>Ea res ut est... enuntiata</b> is a subordinate temporal clause introduced by 'ut' ("when").</p>`
+                        },
+                        zh: {
+                            titulus: "句法分析",
+                            contentus: `<p>主句是<b>moribus suis... coegerunt</b>。主要動詞<b>coegerunt</b>支配一個賓格帶不定式（AcI）結構：<b>Orgetorigem causam dicere</b>。</p><p><b>Ea res ut est... enuntiata</b>是由'ut'（「當...時候」）引導的從屬時間從句。</p>`
+                        }
+                    },
+                    translationes_explicatae: {
+                        es: {
+                            titulus: "Traducciones y Comentarios",
+                            contentus: `<p><b>Traducción Idiomática:</b><br><i>Cuando este asunto fue revelado a los helvecios por medio de delatores, según sus costumbres, obligaron a Orgetórix a defender su causa encadenado.</i></p>`
+                        },
+                        en: {
+                            titulus: "Translations & Commentary",
+                            contentus: `<p><b>Idiomatic Translation:</b><br><i>When this affair was disclosed to the Helvetii through informers, according to their customs, they compelled Orgetorix to plead his cause in chains.</i></p>`
+                        },
+                        zh: {
+                            titulus: "翻譯與註釋",
+                            contentus: `<p><b>意譯：</b><br><i>當這件事通過告密者向赫爾維蒂人揭發後，他們按照自己的習俗，強迫奧格托里克斯戴著鐐銬為自己辯護。</i></p>`
+                        }
+                    },
+                    verba: [
+                        { id_verbi: 'v21_1', terminus: 'Ea', analysis_morphologicus: "Pronombre, femenino, singular, nominativo.", analysis_morphologicus_en: "Pronoun, feminine, singular, nominative.", analysis_morphologicus_zh: "代名詞，陰性，單數，主格。" },
+                        { id_verbi: 'v21_2', terminus: 'res', analysis_morphologicus: "Sustantivo, femenino, singular, nominativo.", analysis_morphologicus_en: "Noun, feminine, singular, nominative.", analysis_morphologicus_zh: "名詞，陰性，單數，主格。" },
+                        { id_verbi: 'v21_3', terminus: 'ut', analysis_morphologicus: "Conjunción temporal.", analysis_morphologicus_en: "Temporal conjunction.", analysis_morphologicus_zh: "時間連詞。" },
+                        { id_verbi: 'v21_4', terminus: 'est', analysis_morphologicus: "Verbo, 3ª pers. sing., perfecto, activo, indicativo.", analysis_morphologicus_en: "Verb, 3rd pers. sing., perfect, active, indicative.", analysis_morphologicus_zh: "動詞，第三人稱單數，完成時，主動語態，直陳法。" },
+                        { id_verbi: 'v21_5', terminus: 'Heluetiis', analysis_morphologicus: "Sustantivo, masculino, plural, dativo.", analysis_morphologicus_en: "Noun, masculine, plural, dative.", analysis_morphologicus_zh: "名詞，陽性，複數，與格。" },
+                        { id_verbi: 'v21_6', terminus: 'per', analysis_morphologicus: "Preposición que rige acusativo.", analysis_morphologicus_en: "Preposition governing accusative.", analysis_morphologicus_zh: "介詞，支配賓格。" },
+                        { id_verbi: 'v21_7', terminus: 'indicium', analysis_morphologicus: "Sustantivo, neutro, singular, acusativo.", analysis_morphologicus_en: "Noun, neuter, singular, accusative.", analysis_morphologicus_zh: "名詞，中性，單數，賓格。" },
+                        { id_verbi: 'v21_8', terminus: 'enuntiata,', analysis_morphologicus: "Participio, perfecto, pasivo, nominativo, singular, femenino.", analysis_morphologicus_en: "Participle, perfect, passive, nominative, singular, feminine.", analysis_morphologicus_zh: "分詞，完成時，被動語態，主格，單數，陰性。" },
+                        { id_verbi: 'v21_9', terminus: 'moribus', analysis_morphologicus: "Sustantivo, masculino, plural, ablativo.", analysis_morphologicus_en: "Noun, masculine, plural, ablative.", analysis_morphologicus_zh: "名詞，陽性，複數，離格。" },
+                        { id_verbi: 'v21_10', terminus: 'suis', analysis_morphologicus: "Adjetivo, masculino, plural, ablativo.", analysis_morphologicus_en: "Adjective, masculine, plural, ablative.", analysis_morphologicus_zh: "形容詞，陽性，複數，離格。" },
+                        { id_verbi: 'v21_11', terminus: 'Orgetorigem', analysis_morphologicus: "Sustantivo, masculino, singular, acusativo.", analysis_morphologicus_en: "Noun, masculine, singular, accusative.", analysis_morphologicus_zh: "名詞，陽性，單數，賓格。" },
+                        { id_verbi: 'v21_12', terminus: 'ex', analysis_morphologicus: "Preposición que rige ablativo.", analysis_morphologicus_en: "Preposition governing ablative.", analysis_morphologicus_zh: "介詞，支配離格。" },
+                        { id_verbi: 'v21_13', terminus: 'uinculis', analysis_morphologicus: "Sustantivo, neutro, plural, ablativo.", analysis_morphologicus_en: "Noun, neuter, plural, ablative.", analysis_morphologicus_zh: "名詞，中性，複數，離格。" },
+                        { id_verbi: 'v21_14', terminus: 'causam', analysis_morphologicus: "Sustantivo, femenino, singular, acusativo.", analysis_morphologicus_en: "Noun, feminine, singular, accusative.", analysis_morphologicus_zh: "名詞，陰性，單數，賓格。" },
+                        { id_verbi: 'v21_15', terminus: 'dicere', analysis_morphologicus: "Verbo, infinitivo presente, activo.", analysis_morphologicus_en: "Verb, present infinitive, active.", analysis_morphologicus_zh: "動詞，現在時不定式，主動語態。" },
+                        { id_verbi: 'v21_16', terminus: 'coegerunt.', analysis_morphologicus: "Verbo, 3ª pers. plural, perfecto, activo, indicativo.", analysis_morphologicus_en: "Verb, 3rd pers. plural, perfect, active, indicative.", analysis_morphologicus_zh: "動詞，第三人稱複數，完成時，主動語態，直陳法。" }
+                    ]
+                },
+                {
+                    id_orationis: 'o22',
+                    textus_originalis: "Damnatum poenam sequi oportebat, ut igni cremaretur.",
+                    analysis_syntacticus: {
+                        es: { titulus: "Análisis Sintáctico", contentus: `<p>El verbo impersonal <b>oportebat</b> rige una AcI cuyo sujeto es <b>poenam</b> y el infinitivo es <b>sequi</b>. El acusativo <b>Damnatum</b> se refiere a Orgetorix y concierta con un 'eum' elíptido. La cláusula <b>ut igni cremaretur</b> es completiva/explicativa de 'poenam'.</p>` },
+                        en: { titulus: "Syntactic Analysis", contentus: `<p>The impersonal verb <b>oportebat</b> governs an AcI whose subject is <b>poenam</b> and infinitive is <b>sequi</b>. The accusative <b>Damnatum</b> refers to Orgetorix and agrees with an elliptical 'eum'. The clause <b>ut igni cremaretur</b> is completive/explicative of 'poenam'.</p>` },
+                        zh: { titulus: "句法分析", contentus: `<p>無人稱動詞<b>oportebat</b>支配一個不定式子句，其主語是<b>poenam</b>，不定式是<b>sequi</b>。賓格<b>Damnatum</b>指奧格托里克斯，並與一個省略的'eum'一致。子句<b>ut igni cremaretur</b>是對'poenam'的補足/解釋。</p>` }
+                    },
+                    translationes_explicatae: {
+                        es: { titulus: "Traducciones y Comentarios", contentus: `<p><b>Traducción Idiomática:</b><br><i>Una vez condenado, debía seguirle el castigo de ser quemado en el fuego.</i></p>` },
+                        en: { titulus: "Translations & Commentary", contentus: `<p><b>Idiomatic Translation:</b><br><i>If condemned, the penalty of being burned by fire had to follow.</i></p>` },
+                        zh: { titulus: "翻譯與註釋", contentus: `<p><b>意譯：</b><br><i>一旦罪名成立，他必須接受火刑的懲罰。</i></p>` }
+                    },
+                    verba: [
+                        { id_verbi: 'v22_1', terminus: 'Damnatum', analysis_morphologicus: "Participio, perfecto, pasivo, acusativo, singular, masculino.", analysis_morphologicus_en: "Participle, perfect, passive, accusative, singular, masculine.", analysis_morphologicus_zh: "分詞，完成時，被動語態，賓格，單數，陽性。" },
+                        { id_verbi: 'v22_2', terminus: 'poenam', analysis_morphologicus: "Sustantivo, femenino, singular, acusativo.", analysis_morphologicus_en: "Noun, feminine, singular, accusative.", analysis_morphologicus_zh: "名詞，陰性，單數，賓格。" },
+                        { id_verbi: 'v22_3', terminus: 'sequi', analysis_morphologicus: "Verbo deponente, infinitivo presente.", analysis_morphologicus_en: "Deponent verb, present infinitive.", analysis_morphologicus_zh: "異態動詞，現在時不定式。" },
+                        { id_verbi: 'v22_4', terminus: 'oportebat,', analysis_morphologicus: "Verbo, 3ª pers. sing., imperfecto, activo, indicativo.", analysis_morphologicus_en: "Verb, 3rd pers. sing., imperfect, active, indicative.", analysis_morphologicus_zh: "動詞，第三人稱單數，未完成時，主動語態，直陳法。" },
+                        { id_verbi: 'v22_5', terminus: 'ut', analysis_morphologicus: "Conjunción.", analysis_morphologicus_en: "Conjunction.", analysis_morphologicus_zh: "連詞。" },
+                        { id_verbi: 'v22_6', terminus: 'igni', analysis_morphologicus: "Sustantivo, masculino, singular, ablativo.", analysis_morphologicus_en: "Noun, masculine, singular, ablative.", analysis_morphologicus_zh: "名詞，陽性，單數，離格。" },
+                        { id_verbi: 'v22_7', terminus: 'cremaretur.', analysis_morphologicus: "Verbo, 3ª pers. sing., imperfecto, pasivo, subjuntivo.", analysis_morphologicus_en: "Verb, 3rd pers. sing., imperfect, passive, subjunctive.", analysis_morphologicus_zh: "動詞，第三人稱單數，未完成時，被動語態，虛擬式。" }
+                    ]
+                },
+                {
+                    id_orationis: 'o23',
+                    textus_originalis: "Die constituta causae dictionis, Orgetorix ad iudicium omnem suam familiam, ad hominum milia X undique coegit, et omnes clientes, obaeratosque suos, quorum magnum numerum habebat, eodem conduxit: per eos, ne causam diceret, se eripuit.",
+                    analysis_syntacticus: {
+                        es: { titulus: "Análisis Sintáctico", contentus: `<p><b>Die constituta</b> es un ablativo absoluto. El sujeto <b>Orgetorix</b> realiza dos acciones con los verbos <b>coegit</b> y <b>conduxit</b>. La oración finaliza con el verbo <b>eripuit</b>. La cláusula <b>ne causam diceret</b> expresa una finalidad negativa.</p>` },
+                        en: { titulus: "Syntactic Analysis", contentus: `<p><b>Die constituta</b> is an ablative absolute. The subject <b>Orgetorix</b> performs two actions with the verbs <b>coegit</b> and <b>conduxit</b>. The sentence ends with the verb <b>eripuit</b>. The clause <b>ne causam diceret</b> expresses a negative purpose.</p>` },
+                        zh: { titulus: "句法分析", contentus: `<p><b>Die constituta</b>是一個獨立離格結構。主語<b>Orgetorix</b>用動詞<b>coegit</b>和<b>conduxit</b>執行兩個動作。句子以動詞<b>eripuit</b>結束。子句<b>ne causam diceret</b>表示否定的目的。</p>` }
+                    },
+                    translationes_explicatae: {
+                        es: { titulus: "Traducciones y Comentarios", contentus: `<p><b>Traducción Idiomática:</b><br><i>Llegado el día fijado para la defensa de su causa, Orgetórix reunió de todas partes para el juicio a toda su familia, hasta diez mil hombres, y congregó allí mismo a todos sus clientes y deudores, que eran numerosos; y por medio de ellos, evitó tener que defenderse.</i></p>` },
+                        en: { titulus: "Translations & Commentary", contentus: `<p><b>Idiomatic Translation:</b><br><i>On the day appointed for the pleading of his cause, Orgetorix gathered from all quarters to the trial his entire household, to the number of ten thousand men, and brought together to the same place all his clients and debtors, of whom he had a great number; and through them, he rescued himself from having to plead his cause.</i></p>` },
+                        zh: { titulus: "翻譯與註釋", contentus: `<p><b>意譯：</b><br><i>在為案件辯護的指定日子，奧格托里克斯從各處召集了他的全部家族，約一萬人到審判地，並將他所有的客戶和債務人（他有很多人）也帶到那裡；通過他們，他得以逃脫，而不必為自己辯護。</i></p>` }
+                    },
+                    verba: [
+                        { id_verbi: 'v23_1', terminus: 'Die', analysis_morphologicus: "Sustantivo, masculino, singular, ablativo.", analysis_morphologicus_en: "Noun, masculine, singular, ablative.", analysis_morphologicus_zh: "名詞，陽性，單數，離格。" },
+                        { id_verbi: 'v23_2', terminus: 'constituta', analysis_morphologicus: "Participio, perfecto, pasivo, ablativo, singular, masculino.", analysis_morphologicus_en: "Participle, perfect, passive, ablative, singular, masculine.", analysis_morphologicus_zh: "分詞，完成時，被動語態，離格，單數，陽性。" },
+                        { id_verbi: 'v23_3', terminus: 'causae', analysis_morphologicus: "Sustantivo, femenino, singular, genitivo.", analysis_morphologicus_en: "Noun, feminine, singular, genitive.", analysis_morphologicus_zh: "名詞，陰性，單數，屬格。" },
+                        { id_verbi: 'v23_4', terminus: 'dictionis,', analysis_morphologicus: "Sustantivo, femenino, singular, genitivo.", analysis_morphologicus_en: "Noun, feminine, singular, genitive.", analysis_morphologicus_zh: "名詞，陰性，單數，屬格。" },
+                        { id_verbi: 'v23_5', terminus: 'Orgetorix', analysis_morphologicus: "Sustantivo, masculino, singular, nominativo.", analysis_morphologicus_en: "Noun, masculine, singular, nominative.", analysis_morphologicus_zh: "名詞，陽性，單數，主格。" },
+                        { id_verbi: 'v23_6', terminus: 'ad', analysis_morphologicus: "Preposición que rige acusativo.", analysis_morphologicus_en: "Preposition governing accusative.", analysis_morphologicus_zh: "介詞，支配賓格。" },
+                        { id_verbi: 'v23_7', terminus: 'iudicium', analysis_morphologicus: "Sustantivo, neutro, singular, acusativo.", analysis_morphologicus_en: "Noun, neuter, singular, accusative.", analysis_morphologicus_zh: "名詞，中性，單數，賓格。" },
+                        { id_verbi: 'v23_8', terminus: 'omnem', analysis_morphologicus: "Adjetivo, femenino, singular, acusativo.", analysis_morphologicus_en: "Adjective, feminine, singular, accusative.", analysis_morphologicus_zh: "形容詞，陰性，單數，賓格。" },
+                        { id_verbi: 'v23_9', terminus: 'suam', analysis_morphologicus: "Adjetivo, femenino, singular, acusativo.", analysis_morphologicus_en: "Adjective, feminine, singular, accusative.", analysis_morphologicus_zh: "形容詞，陰性，單數，賓格。" },
+                        { id_verbi: 'v23_10', terminus: 'familiam,', analysis_morphologicus: "Sustantivo, femenino, singular, acusativo.", analysis_morphologicus_en: "Noun, feminine, singular, accusative.", analysis_morphologicus_zh: "名詞，陰性，單數，賓格。" },
+                        { id_verbi: 'v23_11', terminus: 'ad', analysis_morphologicus: "Preposición que rige acusativo.", analysis_morphologicus_en: "Preposition governing accusative.", analysis_morphologicus_zh: "介詞，支配賓格。" },
+                        { id_verbi: 'v23_12', terminus: 'hominum', analysis_morphologicus: "Sustantivo, masculino, plural, genitivo.", analysis_morphologicus_en: "Noun, masculine, plural, genitive.", analysis_morphologicus_zh: "名詞，陽性，複數，屬格。" },
+                        { id_verbi: 'v23_13', terminus: 'milia', analysis_morphologicus: "Sustantivo, neutro, plural, acusativo.", analysis_morphologicus_en: "Noun, neuter, plural, accusative.", analysis_morphologicus_zh: "名詞，中性，複數，賓格。" },
+                        { id_verbi: 'v23_14', terminus: 'X', analysis_morphologicus: "Numeral.", analysis_morphologicus_en: "Numeral.", analysis_morphologicus_zh: "數詞。" },
+                        { id_verbi: 'v23_15', terminus: 'undique', analysis_morphologicus: "Adverbio.", analysis_morphologicus_en: "Adverb.", analysis_morphologicus_zh: "副詞。" },
+                        { id_verbi: 'v23_16', terminus: 'coegit,', analysis_morphologicus: "Verbo, 3ª pers. sing., perfecto, activo, indicativo.", analysis_morphologicus_en: "Verb, 3rd pers. sing., perfect, active, indicative.", analysis_morphologicus_zh: "動詞，第三人稱單數，完成時，主動語態，直陳法。" },
+                        { id_verbi: 'v23_17', terminus: 'et', analysis_morphologicus: "Conjunción.", analysis_morphologicus_en: "Conjunction.", analysis_morphologicus_zh: "連詞。" },
+                        { id_verbi: 'v23_18', terminus: 'omnes', analysis_morphologicus: "Adjetivo, masculino, plural, acusativo.", analysis_morphologicus_en: "Adjective, masculine, plural, accusative.", analysis_morphologicus_zh: "形容詞，陽性，複數，賓格。" },
+                        { id_verbi: 'v23_19', terminus: 'clientes,', analysis_morphologicus: "Sustantivo, masculino, plural, acusativo.", analysis_morphologicus_en: "Noun, masculine, plural, accusative.", analysis_morphologicus_zh: "名詞，陽性，複數，賓格。" },
+                        { id_verbi: 'v23_20', terminus: 'obaeratosque', analysis_morphologicus: "Sustantivo, masculino, plural, acusativo.", analysis_morphologicus_en: "Noun, masculine, plural, accusative.", analysis_morphologicus_zh: "名詞，陽性，複數，賓格。" },
+                        { id_verbi: 'v23_21', terminus: 'suos,', analysis_morphologicus: "Adjetivo, masculino, plural, acusativo.", analysis_morphologicus_en: "Adjective, masculine, plural, accusative.", analysis_morphologicus_zh: "形容詞，陽性，複數，賓格。" },
+                        { id_verbi: 'v23_22', terminus: 'quorum', analysis_morphologicus: "Pronombre relativo, masculino, plural, genitivo.", analysis_morphologicus_en: "Relative pronoun, masculine, plural, genitive.", analysis_morphologicus_zh: "關係代名詞，陽性，複數，屬格。" },
+                        { id_verbi: 'v23_23', terminus: 'magnum', analysis_morphologicus: "Adjetivo, masculino, singular, acusativo.", analysis_morphologicus_en: "Adjective, masculine, singular, accusative.", analysis_morphologicus_zh: "形容詞，陽性，單數，賓格。" },
+                        { id_verbi: 'v23_24', terminus: 'numerum', analysis_morphologicus: "Sustantivo, masculino, singular, acusativo.", analysis_morphologicus_en: "Noun, masculine, singular, accusative.", analysis_morphologicus_zh: "名詞，陽性，單數，賓格。" },
+                        { id_verbi: 'v23_25', terminus: 'habebat,', analysis_morphologicus: "Verbo, 3ª pers. sing., imperfecto, activo, indicativo.", analysis_morphologicus_en: "Verb, 3rd pers. sing., imperfect, active, indicative.", analysis_morphologicus_zh: "動詞，第三人稱單數，未完成時，主動語態，直陳法。" },
+                        { id_verbi: 'v23_26', terminus: 'eodem', analysis_morphologicus: "Adverbio.", analysis_morphologicus_en: "Adverb.", analysis_morphologicus_zh: "副詞。" },
+                        { id_verbi: 'v23_27', terminus: 'conduxit:', analysis_morphologicus: "Verbo, 3ª pers. sing., perfecto, activo, indicativo.", analysis_morphologicus_en: "Verb, 3rd pers. sing., perfect, active, indicative.", analysis_morphologicus_zh: "動詞，第三人稱單數，完成時，主動語態，直陳法。" },
+                        { id_verbi: 'v23_28', terminus: 'per', analysis_morphologicus: "Preposición que rige acusativo.", analysis_morphologicus_en: "Preposition governing accusative.", analysis_morphologicus_zh: "介詞，支配賓格。" },
+                        { id_verbi: 'v23_29', terminus: 'eos,', analysis_morphologicus: "Pronombre, masculino, plural, acusativo.", analysis_morphologicus_en: "Pronoun, masculine, plural, accusative.", analysis_morphologicus_zh: "代名詞，陽性，複數，賓格。" },
+                        { id_verbi: 'v23_30', terminus: 'ne', analysis_morphologicus: "Conjunción final negativa.", analysis_morphologicus_en: "Negative purpose conjunction.", analysis_morphologicus_zh: "否定目的連詞。" },
+                        { id_verbi: 'v23_31', terminus: 'causam', analysis_morphologicus: "Sustantivo, femenino, singular, acusativo.", analysis_morphologicus_en: "Noun, feminine, singular, accusative.", analysis_morphologicus_zh: "名詞，陰性，單數，賓格。" },
+                        { id_verbi: 'v23_32', terminus: 'diceret,', analysis_morphologicus: "Verbo, 3ª pers. sing., imperfecto, activo, subjuntivo.", analysis_morphologicus_en: "Verb, 3rd pers. sing., imperfect, active, subjunctive.", analysis_morphologicus_zh: "動詞，第三人稱單數，未完成時，主動語態，虛擬式。" },
+                        { id_verbi: 'v23_33', terminus: 'se', analysis_morphologicus: "Pronombre, acusativo.", analysis_morphologicus_en: "Pronoun, accusative.", analysis_morphologicus_zh: "代名詞，賓格。" },
+                        { id_verbi: 'v23_34', terminus: 'eripuit.', analysis_morphologicus: "Verbo, 3ª pers. sing., perfecto, activo, indicativo.", analysis_morphologicus_en: "Verb, 3rd pers. sing., perfect, active, indicative.", analysis_morphologicus_zh: "動詞，第三人稱單數，完成時，主動語態，直陳法。" }
+                    ]
+                },
+                {
+                    id_orationis: 'o24',
+                    textus_originalis: "Cum ciuitas, ob eam rem incitata, armis ius suum exsequi conaretur, multitudinemque hominum ex agris magistratus cogerent, Orgetorix mortuus est, neque abest suspicio, ut Heluetii arbitrabantur, quin ipse sibi mortem consciuerit.",
+                    analysis_syntacticus: {
+                        es: { titulus: "Análisis Sintáctico", contentus: `<p>Comienza con una <b>cláusula 'cum' histórica</b> con dos verbos, <b>conaretur</b> y <b>cogerent</b>. La oración principal es <b>Orgetorix mortuus est</b>, coordinada con <b>neque abest suspicio</b>. La cláusula <b>quin... consciuerit</b> depende de 'suspicio'.</p>` },
+                        en: { titulus: "Syntactic Analysis", contentus: `<p>It begins with a <b>historical 'cum' clause</b> with two verbs, <b>conaretur</b> and <b>cogerent</b>. The main clause is <b>Orgetorix mortuus est</b>, coordinated with <b>neque abest suspicio</b>. The clause <b>quin... consciuerit</b> depends on 'suspicio'.</p>` },
+                        zh: { titulus: "句法分析", contentus: `<p>以帶有兩個動詞<b>conaretur</b>和<b>cogerent</b>的<b>歷史'cum'子句</b>開頭。主句是<b>Orgetorix mortuus est</b>，與<b>neque abest suspicio</b>並列。子句<b>quin... consciuerit</b>依附於'suspicio'。</p>` }
+                    },
+                    translationes_explicatae: {
+                        es: { titulus: "Traducciones y Comentarios", contentus: `<p><b>Traducción Idiomática:</b><br><i>Mientras el pueblo, indignado por este suceso, intentaba hacer valer su derecho por las armas y los magistrados reunían a una multitud de hombres del campo, Orgetórix murió; y no falta la sospecha, según creían los helvecios, de que él mismo se hubiera dado muerte.</i></p>` },
+                        en: { titulus: "Translations & Commentary", contentus: `<p><b>Idiomatic Translation:</b><br><i>While the state, angered by this affair, was attempting to enforce its right by arms, and the magistrates were gathering a multitude of men from the fields, Orgetorix died; and there is not lacking the suspicion, as the Helvetii thought, that he himself decided on death for himself.</i></p>` },
+                        zh: { titulus: "翻譯與註釋", contentus: `<p><b>意譯：</b><br><i>當國家因這件事被激怒，試圖用武力執行其權利，而地方法官們正從鄉間召集大批人手時，奧格托里克斯死了；並且不乏這樣的懷疑，正如赫爾維蒂人所認為的，他自己決定了自己的死亡。</i></p>` }
+                    },
+                    verba: [
+                        { id_verbi: 'v24_1', terminus: 'Cum', analysis_morphologicus: "Conjunción.", analysis_morphologicus_en: "Conjunction.", analysis_morphologicus_zh: "連詞。" },
+                        { id_verbi: 'v24_2', terminus: 'ciuitas,', analysis_morphologicus: "Sustantivo, femenino, singular, nominativo.", analysis_morphologicus_en: "Noun, feminine, singular, nominative.", analysis_morphologicus_zh: "名詞，陰性，單數，主格。" },
+                        { id_verbi: 'v24_3', terminus: 'ob', analysis_morphologicus: "Preposición que rige acusativo.", analysis_morphologicus_en: "Preposition governing accusative.", analysis_morphologicus_zh: "介詞，支配賓格。" },
+                        { id_verbi: 'v24_4', terminus: 'eam', analysis_morphologicus: "Pronombre, femenino, singular, acusativo.", analysis_morphologicus_en: "Pronoun, feminine, singular, accusative.", analysis_morphologicus_zh: "代名詞，陰性，單數，賓格。" },
+                        { id_verbi: 'v24_5', terminus: 'rem', analysis_morphologicus: "Sustantivo, femenino, singular, acusativo.", analysis_morphologicus_en: "Noun, feminine, singular, accusative.", analysis_morphologicus_zh: "名詞，陰性，單數，賓格。" },
+                        { id_verbi: 'v24_6', terminus: 'incitata,', analysis_morphologicus: "Participio, perfecto, pasivo, nominativo, singular, femenino.", analysis_morphologicus_en: "Participle, perfect, passive, nominative, singular, feminine.", analysis_morphologicus_zh: "分詞，完成時，被動語態，主格，單數，陰性。" },
+                        { id_verbi: 'v24_7', terminus: 'armis', analysis_morphologicus: "Sustantivo, neutro, plural, ablativo.", analysis_morphologicus_en: "Noun, neuter, plural, ablative.", analysis_morphologicus_zh: "名詞，中性，複數，離格。" },
+                        { id_verbi: 'v24_8', terminus: 'ius', analysis_morphologicus: "Sustantivo, neutro, singular, acusativo.", analysis_morphologicus_en: "Noun, neuter, singular, accusative.", analysis_morphologicus_zh: "名詞，中性，單數，賓格。" },
+                        { id_verbi: 'v24_9', terminus: 'suum', analysis_morphologicus: "Adjetivo, neutro, singular, acusativo.", analysis_morphologicus_en: "Adjective, neuter, singular, accusative.", analysis_morphologicus_zh: "形容詞，中性，單數，賓格。" },
+                        { id_verbi: 'v24_10', terminus: 'exsequi', analysis_morphologicus: "Verbo deponente, infinitivo presente.", analysis_morphologicus_en: "Deponent verb, present infinitive.", analysis_morphologicus_zh: "異態動詞，現在時不定式。" },
+                        { id_verbi: 'v24_11', terminus: 'conaretur,', analysis_morphologicus: "Verbo deponente, 3ª pers. sing., imperfecto, subjuntivo.", analysis_morphologicus_en: "Deponent verb, 3rd pers. sing., imperfect, subjunctive.", analysis_morphologicus_zh: "異態動詞，第三人稱單數，未完成時，虛擬式。" },
+                        { id_verbi: 'v24_12', terminus: 'multitudinemque', analysis_morphologicus: "Sustantivo, femenino, singular, acusativo.", analysis_morphologicus_en: "Noun, feminine, singular, accusative.", analysis_morphologicus_zh: "名詞，陰性，單數，賓格。" },
+                        { id_verbi: 'v24_13', terminus: 'hominum', analysis_morphologicus: "Sustantivo, masculino, plural, genitivo.", analysis_morphologicus_en: "Noun, masculine, plural, genitive.", analysis_morphologicus_zh: "名詞，陽性，複數，屬格。" },
+                        { id_verbi: 'v24_14', terminus: 'ex', analysis_morphologicus: "Preposición que rige ablativo.", analysis_morphologicus_en: "Preposition governing ablative.", analysis_morphologicus_zh: "介詞，支配離格。" },
+                        { id_verbi: 'v24_15', terminus: 'agris', analysis_morphologicus: "Sustantivo, masculino, plural, ablativo.", analysis_morphologicus_en: "Noun, masculine, plural, ablative.", analysis_morphologicus_zh: "名詞，陽性，複數，離格。" },
+                        { id_verbi: 'v24_16', terminus: 'magistratus', analysis_morphologicus: "Sustantivo, masculino, plural, nominativo.", analysis_morphologicus_en: "Noun, masculine, plural, nominative.", analysis_morphologicus_zh: "名詞，陽性，複數，主格。" },
+                        { id_verbi: 'v24_17', terminus: 'cogerent,', analysis_morphologicus: "Verbo, 3ª pers. plural, imperfecto, activo, subjuntivo.", analysis_morphologicus_en: "Verb, 3rd pers. plural, imperfect, active, subjunctive.", analysis_morphologicus_zh: "動詞，第三人稱複數，未完成時，主動語態，虛擬式。" },
+                        { id_verbi: 'v24_18', terminus: 'Orgetorix', analysis_morphologicus: "Sustantivo, masculino, singular, nominativo.", analysis_morphologicus_en: "Noun, masculine, singular, nominative.", analysis_morphologicus_zh: "名詞，陽性，單數，主格。" },
+                        { id_verbi: 'v24_19', terminus: 'mortuus', analysis_morphologicus: "Participio, perfecto, nominativo, singular, masculino.", analysis_morphologicus_en: "Participle, perfect, nominative, singular, masculine.", analysis_morphologicus_zh: "分詞，完成時，主格，單數，陽性。" },
+                        { id_verbi: 'v24_20', terminus: 'est,', analysis_morphologicus: "Verbo, 3ª pers. sing., presente, activo, indicativo.", analysis_morphologicus_en: "Verb, 3rd pers. sing., present, active, indicative.", analysis_morphologicus_zh: "動詞，第三人稱單數，現在時，主動語態，直陳法。" },
+                        { id_verbi: 'v24_21', terminus: 'neque', analysis_morphologicus: "Conjunción.", analysis_morphologicus_en: "Conjunction.", analysis_morphologicus_zh: "連詞。" },
+                        { id_verbi: 'v24_22', terminus: 'abest', analysis_morphologicus: "Verbo, 3ª pers. sing., presente, activo, indicativo.", analysis_morphologicus_en: "Verb, 3rd pers. sing., present, active, indicative.", analysis_morphologicus_zh: "動詞，第三人稱單數，現在時，主動語態，直陳法。" },
+                        { id_verbi: 'v24_23', terminus: 'suspicio,', analysis_morphologicus: "Sustantivo, femenino, singular, nominativo.", analysis_morphologicus_en: "Noun, feminine, singular, nominative.", analysis_morphologicus_zh: "名詞，陰性，單數，主格。" },
+                        { id_verbi: 'v24_24', terminus: 'ut', analysis_morphologicus: "Adverbio.", analysis_morphologicus_en: "Adverb.", analysis_morphologicus_zh: "副詞。" },
+                        { id_verbi: 'v24_25', terminus: 'Heluetii', analysis_morphologicus: "Sustantivo, masculino, plural, nominativo.", analysis_morphologicus_en: "Noun, masculine, plural, nominative.", analysis_morphologicus_zh: "名詞，陽性，複數，主格。" },
+                        { id_verbi: 'v24_26', terminus: 'arbitrabantur,', analysis_morphologicus: "Verbo deponente, 3ª pers. plural, imperfecto, indicativo.", analysis_morphologicus_en: "Deponent verb, 3rd pers. plural, imperfect, indicative.", analysis_morphologicus_zh: "異態動詞，第三人稱複數，未完成時，直陳法。" },
+                        { id_verbi: 'v24_27', terminus: 'quin', analysis_morphologicus: "Conjunción.", analysis_morphologicus_en: "Conjunction.", analysis_morphologicus_zh: "連詞。" },
+                        { id_verbi: 'v24_28', terminus: 'ipse', analysis_morphologicus: "Pronombre, masculino, singular, nominativo.", analysis_morphologicus_en: "Pronoun, masculine, singular, nominative.", analysis_morphologicus_zh: "代名詞，陽性，單數，主格。" },
+                        { id_verbi: 'v24_29', terminus: 'sibi', analysis_morphologicus: "Pronombre, dativo.", analysis_morphologicus_en: "Pronoun, dative.", analysis_morphologicus_zh: "代名詞，與格。" },
+                        { id_verbi: 'v24_30', terminus: 'mortem', analysis_morphologicus: "Sustantivo, femenino, singular, acusativo.", analysis_morphologicus_en: "Noun, feminine, singular, accusative.", analysis_morphologicus_zh: "名詞，陰性，單數，賓格。" },
+                        { id_verbi: 'v24_31', terminus: 'consciuerit.', analysis_morphologicus: "Verbo, 3ª pers. sing., perfecto, activo, subjuntivo.", analysis_morphologicus_en: "Verb, 3rd pers. sing., perfect, active, subjunctive.", analysis_morphologicus_zh: "動詞，第三人稱單數，完成時，主動語態，虛擬式。" }
+
+
+
+                          { id_verbi: 'v23_34', terminus: 'eripuit.', analysis_morphologicus: "Verbo, 3ª pers. sing., perfecto, activo, indicativo.", analysis_morphologicus_en: "Verb, 3rd pers. sing., perfect, active, indicative.", analysis_morphologicus_zh: "動詞，第三人稱單數，完成時，主動語態，直陳法。" }
+                    ]
+                },
+                {
+                    id_orationis: 'o24',
+
+
+
+
+
+
+  { id_verbi: 'v23_34', terminus: 'eripuit.', analysis_morphologicus: "Verbo, 3ª pers. sing., perfecto, activo, indicativo.", analysis_morphologicus_en: "Verb, 3rd pers. sing., perfect, active, indicative.", analysis_morphologicus_zh: "動詞，第三人稱單數，完成時，主動語態，直陳法。" }
+                    ]
+                },
+                {
+                    id_orationis: 'o24',
+
+
+
+
+  { id_verbi: 'v23_34', terminus: 'eripuit.', analysis_morphologicus: "Verbo, 3ª pers. sing., perfecto, activo, indicativo.", analysis_morphologicus_en: "Verb, 3rd pers. sing., perfect, active, indicative.", analysis_morphologicus_zh: "動詞，第三人稱單數，完成時，主動語態，直陳法。" }
+                    ]
+                },
+                {
+                    id_orationis: 'o24',
+
+
+
+
+
+
+                      { id_verbi: 'v23_34', terminus: 'eripuit.', analysis_morphologicus: "Verbo, 3ª pers. sing., perfecto, activo, indicativo.", analysis_morphologicus_en: "Verb, 3rd pers. sing., perfect, active, indicative.", analysis_morphologicus_zh: "動詞，第三人稱單數，完成時，主動語態，直陳法。" }
+                    ]
+                },
+                {
+                    id_orationis: 'o24',
+
+
+
+
+
+
+                        
+                    
+
+            
                     ]
                 }
             ]
