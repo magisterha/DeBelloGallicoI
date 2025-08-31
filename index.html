@@ -546,7 +546,7 @@ const corpus = {
                     { id_verbi: 'v10_31', terminus: 'totius', analysis_morphologicus: "Adjetivo ('totus'), femenino, singular, genitivo. Modifica a 'Galliae'.", analysis_morphologicus_en: "Adjective ('totus'), feminine, singular, genitive. Modifies 'Galliae'.", analysis_morphologicus_zh: "形容詞 ('totus')，陰性，單數，屬格。修飾'Galliae'。" },
                     { id_verbi: 'v10_32', terminus: 'Galliae', analysis_morphologicus: "Sustantivo, femenino, singular, genitivo. Modifica a 'imperio'.", analysis_morphologicus_en: "Noun, feminine, singular, genitive. Modifies 'imperio'.", analysis_morphologicus_zh: "名詞，陰性，單數，屬格。修飾'imperio'。" },
                     { id_verbi: 'v10_33', terminus: 'imperio', analysis_morphologicus: "Sustantivo ('imperium'), neutro, singular, ablativo. Complemento del verbo 'potiri'.", analysis_morphologicus_en: "Noun ('imperium'), neuter, singular, ablative. Complement of the verb 'potiri'.", analysis_morphologicus_zh: "名詞 ('imperium')，中性，單數，離格。動詞'potiri'的補語。" },
-                    { id_verbi: 'v10_34', terminus: 'potiri.', analysis_morphologicus: "Verbo deponente ('potior'), infinitivo de presente. Sujeto de 'esse'.", analysis_morphologicus_en: "Deponent verb ('potior'), present infinitive. Subject of 'esse'.", analysis_morphologicus_zh: "異態動詞 ('potior')，現在時不定式。'esse'的主語。" }
+                    { id_verbi: 'v10_34', terminus: 'potiri.', analysis_morphologicus: "Verbo deponente ('potior'), infinitivo de presente. Sujeto de 'esse'.", analysis_morphologicus_en: "Deponent verb ('potior'), present infinitive. Subject of 'esse'.", analysis_morphologicus_zh: "異態動詞 ('potior')，現在時不定式。'esse'的主語。" } la    
                 ]
             },
             {
@@ -629,131 +629,126 @@ const corpus = {
                     { id_verbi: 'v11_46', terminus: 'nostram', analysis_morphologicus: "Adjetivo posesivo, femenino, singular, acusativo.", analysis_morphologicus_en: "Possessive adjective, feminine, singular, accusative.", analysis_morphologicus_zh: "物主形容詞，陰性，單數，賓格。" },
                     { id_verbi: 'v11_47', terminus: 'ab', analysis_morphologicus: "Preposición que rige ablativo.", analysis_morphologicus_en: "Preposition governing ablative.", analysis_morphologicus_zh: "介詞，支配離格。" },
                     { id_verbi: 'v11_48', terminus: 'Heluetiis', analysis_morphologicus: "Sustantivo, masculino, plural, ablativo.", analysis_morphologicus_en: "Noun, masculine, plural, ablative.", analysis_morphologicus_zh: "名詞，陽性，複數，離格。" },
-                    { id_verbi: 'v11_49', terminus: 'diuidit.', analysis_morphologicus: "Verbo, 3ª pers. sing., presente, activo, indicativo.", analysis_morphologicus_en: "Verb, 3rd pers. sing., present, active, indicative.", analysis_morphologicus_zh: "動詞，第三人稱單數，現在時，主動語態，直陳法。" }
-                    ]
+                    { id_verbi: 'v11_49', terminus: 'diuidit.', analysis_morphologicus: "Verbo, 3ª pers. sing., presente, activo, indicativo.", analysis_morphologicus_en: "Verb, 3rd pers. sing., present, active, indicative.", analysis_morphologicus_zh: "動詞，第三人稱單數，現在時，主動語態，直陳法。" }                     
+                ]
+            },
+            {
+            id_orationis: 'o12',
+            textus_originalis: "His rebus fiebat ut et minus late uagarentur et minus facile finitimis bellum inferre possent; qua ex parte homines bellandi cupidi magno dolore adficiebantur.",
+            analysis_syntacticus: {
+                es: {
+                    titulus: "Análisis Sintáctico",
+                    contentus: `<p>La oración principal es <b>His rebus fiebat</b>, donde 'fiebat' funciona como verbo impersonal. Introduce una <b>cláusula subordinada completiva de resultado</b> con 'ut' + subjuntivo. Dentro de esta cláusula hay dos verbos coordinados por 'et...et': <b>uagarentur</b> y <b>possent</b>.</p><p>La segunda parte de la oración, después del punto y coma, es <b>qua ex parte... adficiebantur</b>. Es una oración principal cuyo sujeto es 'homines'.</p>`
                 },
-                {
-                    id_orationis: 'o12',
-                    textus_originalis: "His rebus fiebat ut et minus late uagarentur et minus facile finitimis bellum inferre possent; qua ex parte homines bellandi cupidi magno dolore adficiebantur.",
-                    analysis_syntacticus: {
-                        es: {
-                            titulus: "Análisis Sintáctico",
-                            contentus: `<p>La oración principal es <b>His rebus fiebat</b>, donde 'fiebat' funciona como verbo impersonal. Introduce una <b>cláusula subordinada completiva de resultado</b> con 'ut' + subjuntivo. Dentro de esta cláusula hay dos verbos coordinados por 'et...et': <b>uagarentur</b> y <b>possent</b>.</p><p>La segunda parte de la oración, después del punto y coma, es <b>qua ex parte... adficiebantur</b>. Es una oración principal cuyo sujeto es 'homines'.</p>`
-                        },
-                        en: {
-                            titulus: "Syntactic Analysis",
-                            contentus: `<p>The main clause is <b>His rebus fiebat</b>, where 'fiebat' acts as an impersonal verb. It introduces a <b>subordinate result clause</b> with 'ut' + subjunctive. Within this clause, two verbs are coordinated by 'et...et': <b>uagarentur</b> and <b>possent</b>.</p><p>The second part of the sentence, after the semicolon, is <b>qua ex parte... adficiebantur</b>. It is a main clause whose subject is 'homines'.</p>`
-                        },
-                        zh: {
-                            titulus: "句法分析",
-                            contentus: `<p>主句是 <b>His rebus fiebat</b>，其中 'fiebat' 作為無人稱動詞。它引導一個帶有 'ut' + 虛擬式的<b>結果從句</b>。在此從句中，有兩個由 'et...et' 連接的動詞：<b>uagarentur</b> 和 <b>possent</b>。</p><p>分號後的句子第二部分是 <b>qua ex parte... adficiebantur</b>。這是一個主句，主語是 'homines'。</p>`
-                        }
-                    },
-                    translationes_explicatae: {
-                        es: {
-                            titulus: "Traducciones y Comentarios",
-                            contentus: `<p><b>Traducción Literal:</b><br><i>Por estas cosas sucedía que tanto menos ampliamente se expandían y menos fácilmente a los vecinos la guerra podían llevar; por esta razón los hombres deseosos de guerrear con gran dolor eran afectados.</i></p><p><b>Traducción Idiomática:</b><br><i>Como resultado de esto, ocurría que apenas podían extenderse y tenían dificultades para hacer la guerra a sus vecinos, por lo cual, siendo un pueblo aficionado a la guerra, se sentían profundamente afligidos.</i></p>`
-                        },
-                        en: {
-                            titulus: "Translations & Commentary",
-                            contentus: `<p><b>Literal Translation:</b><br><i>From these circumstances it happened that they both wandered less widely and were less easily able to inflict war upon their neighbors; for which reason the men, desirous of warring, were affected with great grief.</i></p><p><b>Idiomatic Translation:</b><br><i>As a result of these factors, their ability to roam was restricted and they could not easily wage war on their neighbors. For a people fond of warfare, this was a cause of great distress.</i></p>`
-                        },
-                        zh: {
-                            titulus: "翻譯與註釋",
-                            contentus: `<p><b>直譯：</b><br><i>由於這些情況，結果是他們既不能廣泛地漫遊，也不能輕易地向鄰國發動戰爭；為此，渴望戰鬥的人們感到極大的痛苦。</i></p><p><b>意譯：</b><br><i>受此地理形勢影響，他們活動的範圍不大，也不易向鄰近部落開戰。對於一個好戰的民族而言，這無疑是極大的苦惱。</i></p>`
-                        }
-                    },
-                    verba: [
-                        { id_verbi: 'v12_1', terminus: 'His', analysis_morphologicus: "Pronombre, neutro, plural, ablativo.", analysis_morphologicus_en: "Pronoun, neuter, plural, ablative.", analysis_morphologicus_zh: "代名詞，中性，複數，離格。" },
-                        { id_verbi: 'v12_2', terminus: 'rebus', analysis_morphologicus: "Sustantivo, femenino, plural, ablativo.", analysis_morphologicus_en: "Noun, feminine, plural, ablative.", analysis_morphologicus_zh: "名詞，陰性，複數，離格。" },
-                        { id_verbi: 'v12_3', terminus: 'fiebat', analysis_morphologicus: "Verbo, 3ª pers. sing., imperfecto, activo, indicativo.", analysis_morphologicus_en: "Verb, 3rd pers. sing., imperfect, active, indicative.", analysis_morphologicus_zh: "動詞，第三人稱單數，未完成時，主動語態，直陳法。" },
-                        { id_verbi: 'v12_4', terminus: 'ut', analysis_morphologicus: "Conjunción de resultado.", analysis_morphologicus_en: "Conjunction of result.", analysis_morphologicus_zh: "結果連詞。" },
-                        { id_verbi: 'v12_5', terminus: 'et', analysis_morphologicus: "Conjunción copulativa.", analysis_morphologicus_en: "Coordinating conjunction.", analysis_morphologicus_zh: "並列連詞。" },
-                        { id_verbi: 'v12_6', terminus: 'minus', analysis_morphologicus: "Adverbio comparativo.", analysis_morphologicus_en: "Comparative adverb.", analysis_morphologicus_zh: "比較副詞。" },
-                        { id_verbi: 'v12_7', terminus: 'late', analysis_morphologicus: "Adverbio.", analysis_morphologicus_en: "Adverb.", analysis_morphologicus_zh: "副詞。" },
-                        { id_verbi: 'v12_8', terminus: 'uagarentur', analysis_morphologicus: "Verbo deponente, 3ª pers. plural, imperfecto, subjuntivo.", analysis_morphologicus_en: "Deponent verb, 3rd pers. plural, imperfect, subjunctive.", analysis_morphologicus_zh: "異態動詞，第三人稱複數，未完成時，虛擬式。" },
-                        { id_verbi: 'v12_9', terminus: 'et', analysis_morphologicus: "Conjunción copulativa.", analysis_morphologicus_en: "Coordinating conjunction.", analysis_morphologicus_zh: "並列連詞。" },
-                        { id_verbi: 'v12_10', terminus: 'minus', analysis_morphologicus: "Adverbio comparativo.", analysis_morphologicus_en: "Comparative adverb.", analysis_morphologicus_zh: "比較副詞。" },
-                        { id_verbi: 'v12_11', terminus: 'facile', analysis_morphologicus: "Adverbio.", analysis_morphologicus_en: "Adverb.", analysis_morphologicus_zh: "副詞。" },
-                        { id_verbi: 'v12_12', terminus: 'finitimis', analysis_morphologicus: "Sustantivo, masculino, plural, dativo.", analysis_morphologicus_en: "Noun, masculine, plural, dative.", analysis_morphologicus_zh: "名詞，陽性，複數，與格。" },
-                        { id_verbi: 'v12_13', terminus: 'bellum', analysis_morphologicus: "Sustantivo, neutro, singular, acusativo. Objeto directo.", analysis_morphologicus_en: "Noun, neuter, singular, accusative. Direct object.", analysis_morphologicus_zh: "名詞，中性，單數，賓格。直接賓語。" },
-                        { id_verbi: 'v12_14', terminus: 'inferre', analysis_morphologicus: "Verbo, infinitivo presente, activo.", analysis_morphologicus_en: "Verb, present infinitive, active.", analysis_morphologicus_zh: "動詞，現在時不定式，主動語態。" },
-                        { id_verbi: 'v12_15', terminus: 'possent;', analysis_morphologicus: "Verbo, 3ª pers. plural, imperfecto, subjuntivo.", analysis_morphologicus_en: "Verb, 3rd pers. plural, imperfect, subjunctive.", analysis_morphologicus_zh: "動詞，第三人稱複數，未完成時，虛擬式。" },
-                        { id_verbi: 'v12_16', terminus: 'qua', analysis_morphologicus: "Adverbio relativo.", analysis_morphologicus_en: "Relative adverb.", analysis_morphologicus_zh: "關係副詞。" },
-                        { id_verbi: 'v12_17', terminus: 'ex', analysis_morphologicus: "Preposición que rige ablativo.", analysis_morphologicus_en: "Preposition governing ablative.", analysis_morphologicus_zh: "介詞，支配離格。" },
-                        { id_verbi: 'v12_18', terminus: 'parte', analysis_morphologicus: "Sustantivo, femenino, singular, ablativo.", analysis_morphologicus_en: "Noun, feminine, singular, ablative.", analysis_morphologicus_zh: "名詞，陰性，單數，離格。" },
-                        { id_verbi: 'v12_19', terminus: 'homines', analysis_morphologicus: "Sustantivo, masculino, plural, nominativo. Sujeto.", analysis_morphologicus_en: "Noun, masculine, plural, nominative. Subject.", analysis_morphologicus_zh: "名詞，陽性，複數，主格。主語。" },
-                        { id_verbi: 'v12_20', terminus: 'bellandi', analysis_morphologicus: "Gerundio, genitivo.", analysis_morphologicus_en: "Gerund, genitive.", analysis_morphologicus_zh: "動名詞，屬格。" },
-                        { id_verbi: 'v12_21', terminus: 'cupidi', analysis_morphologicus: "Adjetivo, masculino, plural, nominativo.", analysis_morphologicus_en: "Adjective, masculine, plural, nominative.", analysis_morphologicus_zh: "形容詞，陽性，複數，主格。" },
-                        { id_verbi: 'v12_22', terminus: 'magno', analysis_morphologicus: "Adjetivo, masculino, singular, ablativo.", analysis_morphologicus_en: "Adjective, masculine, singular, ablative.", analysis_morphologicus_zh: "形容詞，陽性，單數，離格。" },
-                        { id_verbi: 'v12_23', terminus: 'dolore', analysis_morphologicus: "Sustantivo, masculino, singular, ablativo.", analysis_morphologicus_en: "Noun, masculine, singular, ablative.", analysis_morphologicus_zh: "名詞，陽性，單數，離格。" },
-                        { id_verbi: 'v12_24', terminus: 'adficiebantur.', analysis_morphologicus: "Verbo, 3ª pers. plural, imperfecto, pasivo, indicativo.", analysis_morphologicus_en: "Verb, 3rd pers. plural, imperfect, passive, indicative.", analysis_morphologicus_zh: "動詞，第三人稱複數，未完成時，被動語態，直陳法。" }
-                    ]
+                en: {
+                    titulus: "Syntactic Analysis",
+                    contentus: `<p>The main clause is <b>His rebus fiebat</b>, where 'fiebat' acts as an impersonal verb. It introduces a <b>subordinate result clause</b> with 'ut' + subjunctive. Within this clause, two verbs are coordinated by 'et...et': <b>uagarentur</b> and <b>possent</b>.</p><p>The second part of the sentence, after the semicolon, is <b>qua ex parte... adficiebantur</b>. It is a main clause whose subject is 'homines'.</p>`
                 },
-                {
-                    id_orationis: 'o13',
-                    textus_originalis: "Pro multitudine autem hominum et pro gloria belli atque fortitudinis angustos se fines habere arbitrabantur, qui in longitudinem milia passuum CCXL, in latitudinem CLXXX patebant.",
-                    analysis_syntacticus: {
-                        es: {
-                            titulus: "Análisis Sintáctico",
-                            contentus: `<p>La oración principal es <b>arbitrabantur</b>, con un sujeto elíptico (los Helvecios). El verbo rige una <b>oración de infinitivo (AcI)</b>: <b>se angustos fines habere</b>, donde 'se' es el sujeto acusativo y 'habere' el infinitivo.</p><p><b>Pro multitudine...</b> y <b>pro gloria...</b> son complementos circunstanciales de causa/proporción.</p><p><b>qui... patebant</b> es una <b>cláusula de relativo</b> que modifica a 'fines'.</p>`
-                        },
-                        en: {
-                            titulus: "Syntactic Analysis",
-                            contentus: `<p>The main clause is <b>arbitrabantur</b>, with an elliptical subject (the Helvetii). The verb governs an <b>infinitive clause (AcI)</b>: <b>se angustos fines habere</b>, where 'se' is the accusative subject and 'habere' is the infinitive.</p><p><b>Pro multitudine...</b> and <b>pro gloria...</b> are circumstantial complements of cause/proportion.</p><p><b>qui... patebant</b> is a <b>relative clause</b> modifying 'fines'.</p>`
-                        },
-                        zh: {
-                            titulus: "句法分析",
-                            contentus: `<p>主句是 <b>arbitrabantur</b>，主語（赫爾維蒂人）被省略。該動詞支配一個<b>不定式子句（AcI）</b>：<b>se angustos fines habere</b>，其中 'se' 是賓格主語，'habere' 是不定式。</p><p><b>Pro multitudine...</b> 和 <b>pro gloria...</b> 是原因/比例的狀語補語。</p><p><b>qui... patebant</b> 是修飾 'fines' 的<b>關係從句</b>。</p>`
-                        }
-                    },
-                    translationes_explicatae: {
-                        es: {
-                            titulus: "Traducciones y Comentarios",
-                            contentus: `<p><b>Traducción Literal:</b><br><i>En proporción a la multitud de hombres y a la gloria de guerra y de valentía, consideraban que ellos tenían fronteras estrechas, las cuales en longitud 240 mil pasos, en anchura 180 se extendían.</i></p><p><b>Traducción Idiomática:</b><br><i>Consideraban que, para su gran número de habitantes y su reputación de valor y de gloria guerrera, sus fronteras eran demasiado estrechas, pues se extendían 240 millas de largo por 180 de ancho.</i></p>`
-                        },
-                        en: {
-                            titulus: "Translations & Commentary",
-                            contentus: `<p><b>Literal Translation:</b><br><i>Moreover, in proportion to the multitude of their people and their glory in war and bravery, they thought that they had narrow borders, which extended in length 240 thousand paces, and in width 180.</i></p><p><b>Idiomatic Translation:</b><br><i>Considering their large population and their renown for bravery and warfare, they believed the territory they had was too small, extending 240 miles in length and 180 in breadth.</i></p>`
-                        },
-                        zh: {
-                            titulus: "翻譯與註釋",
-                            contentus: `<p><b>直譯：</b><br><i>然而，與他們的人口數量以及在戰爭和勇氣方面的榮耀相比，他們認為自己擁有的疆域狹窄，其長度延伸二百四十羅里，寬度一百八十羅里。</i></p><p><b>意譯：</b><br><i>他們認為，以其眾多的人口和赫赫戰功而論，現有的疆域實在太過狹小了——縱長二百四十羅里，橫闊一百八十羅里。</i></p>`
-                        }
-                    },
-                    verba: [
-                        { id_verbi: 'v13_1', terminus: 'Pro', analysis_morphologicus: "Preposición que rige ablativo.", analysis_morphologicus_en: "Preposition governing ablative.", analysis_morphologicus_zh: "介詞，支配離格。" },
-                        { id_verbi: 'v13_2', terminus: 'multitudine', analysis_morphologicus: "Sustantivo, femenino, singular, ablativo.", analysis_morphologicus_en: "Noun, feminine, singular, ablative.", analysis_morphologicus_zh: "名詞，陰性，單數，離格。" },
-                        { id_verbi: 'v13_3', terminus: 'autem', analysis_morphologicus: "Conjunción adversativa.", analysis_morphologicus_en: "Adversative conjunction.", analysis_morphologicus_zh: "反義連詞。" },
-                        { id_verbi: 'v13_4', terminus: 'hominum', analysis_morphologicus: "Sustantivo, masculino, plural, genitivo.", analysis_morphologicus_en: "Noun, masculine, plural, genitive.", analysis_morphologicus_zh: "名詞，陽性，複數，屬格。" },
-                        { id_verbi: 'v13_5', terminus: 'et', analysis_morphologicus: "Conjunción copulativa.", analysis_morphologicus_en: "Coordinating conjunction.", analysis_morphologicus_zh: "並列連詞。" },
-                        { id_verbi: 'v13_6', terminus: 'pro', analysis_morphologicus: "Preposición que rige ablativo.", analysis_morphologicus_en: "Preposition governing ablative.", analysis_morphologicus_zh: "介詞，支配離格。" },
-                        { id_verbi: 'v13_7', terminus: 'gloria', analysis_morphologicus: "Sustantivo, femenino, singular, ablativo.", analysis_morphologicus_en: "Noun, feminine, singular, ablative.", analysis_morphologicus_zh: "名詞，陰性，單數，離格。" },
-                        { id_verbi: 'v13_8', terminus: 'belli', analysis_morphologicus: "Sustantivo, neutro, singular, genitivo.", analysis_morphologicus_en: "Noun, neuter, singular, genitive.", analysis_morphologicus_zh: "名詞，中性，單數，屬格。" },
-                        { id_verbi: 'v13_9', terminus: 'atque', analysis_morphologicus: "Conjunción copulativa.", analysis_morphologicus_en: "Coordinating conjunction.", analysis_morphologicus_zh: "並列連詞。" },
-                        { id_verbi: 'v13_10', terminus: 'fortitudinis', analysis_morphologicus: "Sustantivo, femenino, singular, genitivo.", analysis_morphologicus_en: "Noun, feminine, singular, genitive.", analysis_morphologicus_zh: "名詞，陰性，單數，屬格。" },
-                        { id_verbi: 'v13_11', terminus: 'angustos', analysis_morphologicus: "Adjetivo, masculino, plural, acusativo.", analysis_morphologicus_en: "Adjective, masculine, plural, accusative.", analysis_morphologicus_zh: "形容詞，陽性，複數，賓格。" },
-                        { id_verbi: 'v13_12', terminus: 'se', analysis_morphologicus: "Pronombre reflexivo, acusativo. Sujeto de la AcI.", analysis_morphologicus_en: "Reflexive pronoun, accusative. Subject of the AcI.", analysis_morphologicus_zh: "反身代名詞，賓格。不定式子句的主語。" },
-                        { id_verbi: 'v13_13', terminus: 'fines', analysis_morphologicus: "Sustantivo, masculino, plural, acusativo. Objeto directo de 'habere'.", analysis_morphologicus_en: "Noun, masculine, plural, accusative. Direct object of 'habere'.", analysis_morphologicus_zh: "名詞，陽性，複數，賓格。'habere'的直接賓語。" },
-                        { id_verbi: 'v13_14', terminus: 'habere', analysis_morphologicus: "Verbo, infinitivo presente, activo.", analysis_morphologicus_en: "Verb, present infinitive, active.", analysis_morphologicus_zh: "動詞，現在時不定式，主動語態。" },
-                        { id_verbi: 'v13_15', terminus: 'arbitrabantur,', analysis_morphologicus: "Verbo deponente, 3ª pers. plural, imperfecto, indicativo.", analysis_morphologicus_en: "Deponent verb, 3rd pers. plural, imperfect, indicative.", analysis_morphologicus_zh: "異態動詞，第三人稱複數，未完成時，直陳法。" },
-                        { id_verbi: 'v13_16', terminus: 'qui', analysis_morphologicus: "Pronombre relativo, masculino, plural, nominativo. Sujeto de 'patebant'.", analysis_morphologicus_en: "Relative pronoun, masculine, plural, nominative. Subject of 'patebant'.", analysis_morphologicus_zh: "關係代名詞，陽性，複數，主格。'patebant'的主語。" },
-                        { id_verbi: 'v13_17', terminus: 'in', analysis_morphologicus: "Preposición que rige acusativo.", analysis_morphologicus_en: "Preposition governing accusative.", analysis_morphologicus_zh: "介詞，支配賓格。" },
-                        { id_verbi: 'v13_18', terminus: 'longitudinem', analysis_morphologicus: "Sustantivo, femenino, singular, acusativo.", analysis_morphologicus_en: "Noun, feminine, singular, accusative.", analysis_morphologicus_zh: "名詞，陰性，單數，賓格。" },
-                        { id_verbi: 'v13_19', terminus: 'milia', analysis_morphologicus: "Sustantivo, neutro, plural, acusativo.", analysis_morphologicus_en: "Noun, neuter, plural, accusative.", analysis_morphologicus_zh: "名詞，中性，複數，賓格。" },
-                        { id_verbi: 'v13_20', terminus: 'passuum,', analysis_morphologicus: "Sustantivo, masculino, plural, genitivo partitivo.", analysis_morphologicus_en: "Noun, masculine, plural, partitive genitive.", analysis_morphologicus_zh: "名詞，陽性，複數，部分屬格。" },
-                        { id_verbi: 'v13_21', terminus: 'CCXL,', analysis_morphologicus: "Numeral.", analysis_morphologicus_en: "Numeral.", analysis_morphologicus_zh: "數詞。" },
-                        { id_verbi: 'v13_22', terminus: 'in', analysis_morphologicus: "Preposición que rige acusativo.", analysis_morphologicus_en: "Preposition governing accusative.", analysis_morphologicus_zh: "介詞，支配賓格。" },
-                        { id_verbi: 'v13_23', terminus: 'latitudinem', analysis_morphologicus: "Sustantivo, femenino, singular, acusativo.", analysis_morphologicus_en: "Noun, feminine, singular, accusative.", analysis_morphologicus_zh: "名詞，陰性，單數，賓格。" },
-                        { id_verbi: 'v13_24', terminus: 'CLXXX', analysis_morphologicus: "Numeral.", analysis_morphologicus_en: "Numeral.", analysis_morphologicus_zh: "數詞。" },
-                        { id_verbi: 'v13_25', terminus: 'patebant.', analysis_morphologicus: "Verbo, 3ª pers. plural, imperfecto, activo, indicativo.", analysis_morphologicus_en: "Verb, 3rd pers. plural, imperfect, active, indicative.", analysis_morphologicus_zh: "動詞，第三人稱複數，未完成時，主動語態，直陳法。" }
-                    ]
+                zh: {
+                    titulus: "句法分析",
+                    contentus: `<p>主句是 <b>His rebus fiebat</b>，其中 'fiebat' 作為無人稱動詞。它引導一個帶有 'ut' + 虛擬式的<b>結果從句</b>。在此從句中，有兩個由 'et...et' 連接的動詞：<b>uagarentur</b> 和 <b>possent</b>。</p><p>分號後的句子第二部分是 <b>qua ex parte... adficiebantur</b>。這是一個主句，主語是 'homines'。</p>`
                 }
+            },
+            translationes_explicatae: {
+                es: {
+                    titulus: "Traducciones y Comentarios",
+                    contentus: `<p><b>Traducción Literal:</b><br><i>Por estas cosas sucedía que tanto menos ampliamente se expandían y menos fácilmente a los vecinos la guerra podían llevar; por esta razón los hombres deseosos de guerrear con gran dolor eran afectados.</i></p><p><b>Traducción Idiomática:</b><br><i>Como resultado de esto, ocurría que apenas podían extenderse y tenían dificultades para hacer la guerra a sus vecinos, por lo cual, siendo un pueblo aficionado a la guerra, se sentían profundamente afligidos.</i></p>`
+                },
+                en: {
+                    titulus: "Translations & Commentary",
+                    contentus: `<p><b>Literal Translation:</b><br><i>From these circumstances it happened that they both wandered less widely and were less easily able to inflict war upon their neighbors; for which reason the men, desirous of warring, were affected with great grief.</i></p><p><b>Idiomatic Translation:</b><br><i>As a result of these factors, their ability to roam was restricted and they could not easily wage war on their neighbors. For a people fond of warfare, this was a cause of great distress.</i></p>`
+                },
+                zh: {
+                    titulus: "翻譯與註釋",
+                    contentus: `<p><b>直譯：</b><br><i>由於這些情況，結果是他們既不能廣泛地漫遊，也不能輕易地向鄰國發動戰爭；為此，渴望戰鬥的人們感到極大的痛苦。</i></p><p><b>意譯：</b><br><i>受此地理形勢影響，他們活動的範圍不大，也不易向鄰近部落開戰。對於一個好戰的民族而言，這無疑是極大的苦惱。</i></p>`
+                }
+            },
+            verba: [
+                { id_verbi: 'v12_1', terminus: 'His', analysis_morphologicus: "Pronombre, neutro, plural, ablativo.", analysis_morphologicus_en: "Pronoun, neuter, plural, ablative.", analysis_morphologicus_zh: "代名詞，中性，複數，離格。" },
+                { id_verbi: 'v12_2', terminus: 'rebus', analysis_morphologicus: "Sustantivo, femenino, plural, ablativo.", analysis_morphologicus_en: "Noun, feminine, plural, ablative.", analysis_morphologicus_zh: "名詞，陰性，複數，離格。" },
+                { id_verbi: 'v12_3', terminus: 'fiebat', analysis_morphologicus: "Verbo, 3ª pers. sing., imperfecto, activo, indicativo.", analysis_morphologicus_en: "Verb, 3rd pers. sing., imperfect, active, indicative.", analysis_morphologicus_zh: "動詞，第三人稱單數，未完成時，主動語態，直陳法。" },
+                { id_verbi: 'v12_4', terminus: 'ut', analysis_morphologicus: "Conjunción de resultado.", analysis_morphologicus_en: "Conjunction of result.", analysis_morphologicus_zh: "結果連詞。" },
+                { id_verbi: 'v12_5', terminus: 'et', analysis_morphologicus: "Conjunción copulativa.", analysis_morphologicus_en: "Coordinating conjunction.", analysis_morphologicus_zh: "並列連詞。" },
+                { id_verbi: 'v12_6', terminus: 'minus', analysis_morphologicus: "Adverbio comparativo.", analysis_morphologicus_en: "Comparative adverb.", analysis_morphologicus_zh: "比較副詞。" },
+                { id_verbi: 'v12_7', terminus: 'late', analysis_morphologicus: "Adverbio.", analysis_morphologicus_en: "Adverb.", analysis_morphologicus_zh: "副詞。" },
+                { id_verbi: 'v12_8', terminus: 'uagarentur', analysis_morphologicus: "Verbo deponente, 3ª pers. plural, imperfecto, subjuntivo.", analysis_morphologicus_en: "Deponent verb, 3rd pers. plural, imperfect, subjunctive.", analysis_morphologicus_zh: "異態動詞，第三人稱複數，未完成時，虛擬式。" },
+                { id_verbi: 'v12_9', terminus: 'et', analysis_morphologicus: "Conjunción copulativa.", analysis_morphologicus_en: "Coordinating conjunction.", analysis_morphologicus_zh: "並列連詞。" },
+                { id_verbi: 'v12_10', terminus: 'minus', analysis_morphologicus: "Adverbio comparativo.", analysis_morphologicus_en: "Comparative adverb.", analysis_morphologicus_zh: "比較副詞。" },
+                { id_verbi: 'v12_11', terminus: 'facile', analysis_morphologicus: "Adverbio.", analysis_morphologicus_en: "Adverb.", analysis_morphologicus_zh: "副詞。" },
+                { id_verbi: 'v12_12', terminus: 'finitimis', analysis_morphologicus: "Sustantivo, masculino, plural, dativo.", analysis_morphologicus_en: "Noun, masculine, plural, dative.", analysis_morphologicus_zh: "名詞，陽性，複數，與格。" },
+                { id_verbi: 'v12_13', terminus: 'bellum', analysis_morphologicus: "Sustantivo, neutro, singular, acusativo. Objeto directo.", analysis_morphologicus_en: "Noun, neuter, singular, accusative. Direct object.", analysis_morphologicus_zh: "名詞，中性，單數，賓格。直接賓語。" },
+                { id_verbi: 'v12_14', terminus: 'inferre', analysis_morphologicus: "Verbo, infinitivo presente, activo.", analysis_morphologicus_en: "Verb, present infinitive, active.", analysis_morphologicus_zh: "動詞，現在時不定式，主動語態。" },
+                { id_verbi: 'v12_15', terminus: 'possent;', analysis_morphologicus: "Verbo, 3ª pers. plural, imperfecto, subjuntivo.", analysis_morphologicus_en: "Verb, 3rd pers. plural, imperfect, subjunctive.", analysis_morphologicus_zh: "動詞，第三人稱複數，未完成時，虛擬式。" },
+                { id_verbi: 'v12_16', terminus: 'qua', analysis_morphologicus: "Adverbio relativo.", analysis_morphologicus_en: "Relative adverb.", analysis_morphologicus_zh: "關係副詞。" },
+                { id_verbi: 'v12_17', terminus: 'ex', analysis_morphologicus: "Preposición que rige ablativo.", analysis_morphologicus_en: "Preposition governing ablative.", analysis_morphologicus_zh: "介詞，支配離格。" },
+                { id_verbi: 'v12_18', terminus: 'parte', analysis_morphologicus: "Sustantivo, femenino, singular, ablativo.", analysis_morphologicus_en: "Noun, feminine, singular, ablative.", analysis_morphologicus_zh: "名詞，陰性，單數，離格。" },
+                { id_verbi: 'v12_19', terminus: 'homines', analysis_morphologicus: "Sustantivo, masculino, plural, nominativo. Sujeto.", analysis_morphologicus_en: "Noun, masculine, plural, nominative. Subject.", analysis_morphologicus_zh: "名詞，陽性，複數，主格。主語。" },
+                { id_verbi: 'v12_20', terminus: 'bellandi', analysis_morphologicus: "Gerundio, genitivo.", analysis_morphologicus_en: "Gerund, genitive.", analysis_morphologicus_zh: "動名詞，屬格。" },
+                { id_verbi: 'v12_21', terminus: 'cupidi', analysis_morphologicus: "Adjetivo, masculino, plural, nominativo.", analysis_morphologicus_en: "Adjective, masculine, plural, nominative.", analysis_morphologicus_zh: "形容詞，陽性，複數，主格。" },
+                { id_verbi: 'v12_22', terminus: 'magno', analysis_morphologicus: "Adjetivo, masculino, singular, ablativo.", analysis_morphologicus_en: "Adjective, masculine, singular, ablative.", analysis_morphologicus_zh: "形容詞，陽性，單數，離格。" },
+                { id_verbi: 'v12_23', terminus: 'dolore', analysis_morphologicus: "Sustantivo, masculino, singular, ablativo.", analysis_morphologicus_en: "Noun, masculine, singular, ablative.", analysis_morphologicus_zh: "名詞，陽性，單數，離格。" },
+                { id_verbi: 'v12_24', terminus: 'adficiebantur.', analysis_morphologicus: "Verbo, 3ª pers. plural, imperfecto, pasivo, indicativo.", analysis_morphologicus_en: "Verb, 3rd pers. plural, imperfect, passive, indicative.", analysis_morphologicus_zh: "動詞，第三人稱複數，未完成時，被動語態，直陳法。" }
+            ]
+        },
+        {
+            id_orationis: 'o13',
+            textus_originalis: "Pro multitudine autem hominum et pro gloria belli atque fortitudinis angustos se fines habere arbitrabantur, qui in longitudinem milia passuum CCXL, in latitudinem CLXXX patebant.",
+            analysis_syntacticus: {
+                es: {
+                    titulus: "Análisis Sintáctico",
+                    contentus: `<p>La oración principal es <b>arbitrabantur</b>, con un sujeto elíptico (los Helvecios). El verbo rige una <b>oración de infinitivo (AcI)</b>: <b>se angustos fines habere</b>, donde 'se' es el sujeto acusativo y 'habere' el infinitivo.</p><p><b>Pro multitudine...</b> y <b>pro gloria...</b> son complementos circunstanciales de causa/proporción.</p><p><b>qui... patebant</b> es una <b>cláusula de relativo</b> que modifica a 'fines'.</p>`
+                },
+                en: {
+                    titulus: "Syntactic Analysis",
+                    contentus: `<p>The main clause is <b>arbitrabantur</b>, with an elliptical subject (the Helvetii). The verb governs an <b>infinitive clause (AcI)</b>: <b>se angustos fines habere</b>, where 'se' is the accusative subject and 'habere' is the infinitive.</p><p><b>Pro multitudine...</b> and <b>pro gloria...</b> are circumstantial complements of cause/proportion.</p><p><b>qui... patebant</b> is a <b>relative clause</b> modifying 'fines'.</p>`
+                },
+                zh: {
+                    titulus: "句法分析",
+                    contentus: `<p>主句是 <b>arbitrabantur</b>，主語（赫爾維蒂人）被省略。該動詞支配一個<b>不定式子句（AcI）</b>：<b>se angustos fines habere</b>，其中 'se' 是賓格主語，'habere' 是不定式。</p><p><b>Pro multitudine...</b> 和 <b>pro gloria...</b> 是原因/比例的狀語補語。</p><p><b>qui... patebant</b> 是修飾 'fines' 的<b>關係從句</b>。</p>`
+                }
+            },
+            translationes_explicatae: {
+                es: {
+                    titulus: "Traducciones y Comentarios",
+                    contentus: `<p><b>Traducción Literal:</b><br><i>En proporción a la multitud de hombres y a la gloria de guerra y de valentía, consideraban que ellos tenían fronteras estrechas, las cuales en longitud 240 mil pasos, en anchura 180 se extendían.</i></p><p><b>Traducción Idiomática:</b><br><i>Consideraban que, para su gran número de habitantes y su reputación de valor y de gloria guerrera, sus fronteras eran demasiado estrechas, pues se extendían 240 millas de largo por 180 de ancho.</i></p>`
+                },
+                en: {
+                    titulus: "Translations & Commentary",
+                    contentus: `<p><b>Literal Translation:</b><br><i>Moreover, in proportion to the multitude of their people and their glory in war and bravery, they thought that they had narrow borders, which extended in length 240 thousand paces, and in width 180.</i></p><p><b>Idiomatic Translation:</b><br><i>Considering their large population and their renown for bravery and warfare, they believed the territory they had was too small, extending 240 miles in length and 180 in breadth.</i></p>`
+                },
+                zh: {
+                    titulus: "翻譯與註釋",
+                    contentus: `<p><b>直譯：</b><br><i>然而，與他們的人口數量以及在戰爭和勇氣方面的榮耀相比，他們認為自己擁有的疆域狹窄，其長度延伸二百四十羅里，寬度一百八十羅里。</i></p><p><b>意譯：</b><br><i>他們認為，以其眾多的人口和赫赫戰功而論，現有的疆域實在太過狹小了——縱長二百四十羅里，橫闊一百八十羅里。</i></p>`
+                }
+            },
+            verba: [
+                { id_verbi: 'v13_1', terminus: 'Pro', analysis_morphologicus: "Preposición que rige ablativo.", analysis_morphologicus_en: "Preposition governing ablative.", analysis_morphologicus_zh: "介詞，支配離格。" },
+                { id_verbi: 'v13_2', terminus: 'multitudine', analysis_morphologicus: "Sustantivo, femenino, singular, ablativo.", analysis_morphologicus_en: "Noun, feminine, singular, ablative.", analysis_morphologicus_zh: "名詞，陰性，單數，離格。" },
+                { id_verbi: 'v13_3', terminus: 'autem', analysis_morphologicus: "Conjunción adversativa.", analysis_morphologicus_en: "Adversative conjunction.", analysis_morphologicus_zh: "反義連詞。" },
+                { id_verbi: 'v13_4', terminus: 'hominum', analysis_morphologicus: "Sustantivo, masculino, plural, genitivo.", analysis_morphologicus_en: "Noun, masculine, plural, genitive.", analysis_morphologicus_zh: "名詞，陽性，複數，屬格。" },
+                { id_verbi: 'v13_5', terminus: 'et', analysis_morphologicus: "Conjunción copulativa.", analysis_morphologicus_en: "Coordinating conjunction.", analysis_morphologicus_zh: "並列連詞。" },
+                { id_verbi: 'v13_6', terminus: 'pro', analysis_morphologicus: "Preposición que rige ablativo.", analysis_morphologicus_en: "Preposition governing ablative.", analysis_morphologicus_zh: "介詞，支配離格。" },
+                { id_verbi: 'v13_7', terminus: 'gloria', analysis_morphologicus: "Sustantivo, femenino, singular, ablativo.", analysis_morphologicus_en: "Noun, feminine, singular, ablative.", analysis_morphologicus_zh: "名詞，陰性，單數，離格。" },
+                { id_verbi: 'v13_8', terminus: 'belli', analysis_morphologicus: "Sustantivo, neutro, singular, genitivo.", analysis_morphologicus_en: "Noun, neuter, singular, genitive.", analysis_morphologicus_zh: "名詞，中性，單數，屬格。" },
+                { id_verbi: 'v13_9', terminus: 'atque', analysis_morphologicus: "Conjunción copulativa.", analysis_morphologicus_en: "Coordinating conjunction.", analysis_morphologicus_zh: "並列連詞。" },
+                { id_verbi: 'v13_10', terminus: 'fortitudinis', analysis_morphologicus: "Sustantivo, femenino, singular, genitivo.", analysis_morphologicus_en: "Noun, feminine, singular, genitive.", analysis_morphologicus_zh: "名詞，陰性，單數，屬格。" },
+                { id_verbi: 'v13_11', terminus: 'angustos', analysis_morphologicus: "Adjetivo, masculino, plural, acusativo.", analysis_morphologicus_en: "Adjective, masculine, plural, accusative.", analysis_morphologicus_zh: "形容詞，陽性，複數，賓格。" },
+                { id_verbi: 'v13_12', terminus: 'se', analysis_morphologicus: "Pronombre reflexivo, acusativo. Sujeto de la AcI.", analysis_morphologicus_en: "Reflexive pronoun, accusative. Subject of the AcI.", analysis_morphologicus_zh: "反身代名詞，賓格。不定式子句的主語。" },
+                { id_verbi: 'v13_13', terminus: 'fines', analysis_morphologicus: "Sustantivo, masculino, plural, acusativo. Objeto directo de 'habere'.", analysis_morphologicus_en: "Noun, masculine, plural, accusative. Direct object of 'habere'.", analysis_morphologicus_zh: "名詞，陽性，複數，賓格。'habere'的直接賓語。" },
+                { id_verbi: 'v13_14', terminus: 'habere', analysis_morphologicus: "Verbo, infinitivo presente, activo.", analysis_morphologicus_en: "Verb, present infinitive, active.", analysis_morphologicus_zh: "動詞，現在時不定式，主動語態。" },
+                { id_verbi: 'v13_15', terminus: 'arbitrabantur,', analysis_morphologicus: "Verbo deponente, 3ª pers. plural, imperfecto, indicativo.", analysis_morphologicus_en: "Deponent verb, 3rd pers. plural, imperfect, indicative.", analysis_morphologicus_zh: "異態動詞，第三人稱複數，未完成時，直陳法。" },
+                { id_verbi: 'v13_16', terminus: 'qui', analysis_morphologicus: "Pronombre relativo, masculino, plural, nominativo. Sujeto de 'patebant'.", analysis_morphologicus_en: "Relative pronoun, masculine, plural, nominative. Subject of 'patebant'.", analysis_morphologicus_zh: "關係代名詞，陽性，複數，主格。'patebant'的主語。" },
+                { id_verbi: 'v13_17', terminus: 'in', analysis_morphologicus: "Preposición que rige acusativo.", analysis_morphologicus_en: "Preposition governing accusative.", analysis_morphologicus_zh: "介詞，支配賓格。" },
+                { id_verbi: 'v13_18', terminus: 'longitudinem', analysis_morphologicus: "Sustantivo, femenino, singular, acusativo.", analysis_morphologicus_en: "Noun, feminine, singular, accusative.", analysis_morphologicus_zh: "名詞，陰性，單數，賓格。" },
+                { id_verbi: 'v13_19', terminus: 'milia', analysis_morphologicus: "Sustantivo, neutro, plural, acusativo.", analysis_morphologicus_en: "Noun, neuter, plural, accusative.", analysis_morphologicus_zh: "名詞，中性，複數，賓格。" },
+                { id_verbi: 'v13_20', terminus: 'passuum,', analysis_morphologicus: "Sustantivo, masculino, plural, genitivo partitivo.", analysis_morphologicus_en: "Noun, masculine, plural, partitive genitive.", analysis_morphologicus_zh: "名詞，陽性，複數，部分屬格。" },
+                { id_verbi: 'v13_21', terminus: 'CCXL,', analysis_morphologicus: "Numeral.", analysis_morphologicus_en: "Numeral.", analysis_morphologicus_zh: "數詞。" },
+                { id_verbi: 'v13_22', terminus: 'in', analysis_morphologicus: "Preposición que rige acusativo.", analysis_morphologicus_en: "Preposition governing accusative.", analysis_morphologicus_zh: "介詞，支配賓格。" },
+                { id_verbi: 'v13_23', terminus: 'latitudinem', analysis_morphologicus: "Sustantivo, femenino, singular, acusativo.", analysis_morphologicus_en: "Noun, feminine, singular, accusative.", analysis_morphologicus_zh: "名詞，陰性，單數，賓格。" },
+                { id_verbi: 'v13_24', terminus: 'CLXXX', analysis_morphologicus: "Numeral.", analysis_morphologicus_en: "Numeral.", analysis_morphologicus_zh: "數詞。" },
+                { id_verbi: 'v13_25', terminus: 'patebant.', analysis_morphologicus: "Verbo, 3ª pers. plural, imperfecto, activo, indicativo.", analysis_morphologicus_en: "Verb, 3rd pers. plural, imperfect, active, indicative.", analysis_morphologicus_zh: "動詞，第三人稱複數，未完成時，主動語態，直陳法。" }
             ]
         }
-    };
-
-        
         // =========================================================================================
         // === FIN DE LA ZONA DE DATOS ===
         // (No es necesario editar nada debajo de esta línea)
